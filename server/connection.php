@@ -29,7 +29,7 @@ define("HOST", "localhost");
 
 // Set configurations based on protocol
 if ($request == 'https') {
-    $domain = "https://fusionsassets.com/";
+    $domain = "https://www.bodyandsoulrelax.com/";
     define("USER", "tifkvkth_crypto");
     define("PASSWORD", "tifkvkth_crypto");
     define("DATABASE", "tifkvkth_crypto");
@@ -49,13 +49,13 @@ if (!$connection) {
 }
 
 // // Site configurations
-$sitename = "Susano Massage";
+$sitename = "Body And Soul Relax";
 
 
 // email config 
-$siteemail = "support@fusionsassets.com";
-$emailpassword  = "support@fusionsassets.com";
-$host = 'mail.fusionsassets.com';
+$siteemail = "support@bodyandsoulrelax.com";
+$emailpassword  = "support@bodyandsoulrelax.com";
+$host = 'mail.bodyandsoulrelax.com';
 $sitephone  = "07443961597";
 $siteaddress  = "At Caversham Houses, 18 kingston Gardens Beddington Surrey Cro 4tx";
 

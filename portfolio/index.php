@@ -84,7 +84,7 @@ include('../server/connection.php')
                     <!-- team member image start -->
                     <div class="team-member-image">
                         <figure class="image-anime">
-                            <img src="<?php echo $domain ?>assets/images/team-1.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/me/1.jpg" alt="">
                         </figure>
                     </div>
                     <!-- team member image end -->
