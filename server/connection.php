@@ -30,9 +30,9 @@ define("HOST", "localhost");
 // Set configurations based on protocol
 if ($request == 'https') {
     $domain = "https://www.bodyandsoulrelax.com/";
-    define("USER", "tifkvkth_crypto");
-    define("PASSWORD", "tifkvkth_crypto");
-    define("DATABASE", "tifkvkth_crypto");
+    define("USER", "pdicsrdj_massage_spa");
+    define("PASSWORD", "pdicsrdj_massage_spa");
+    define("DATABASE", "pdicsrdj_massage_spa");
 }
 elseif ($request == 'http') {
     $domain = "http://localhost/Massage_spa/";
