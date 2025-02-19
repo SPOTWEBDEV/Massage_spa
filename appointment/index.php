@@ -16,7 +16,7 @@ include('../server/connection.php')
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-	<title>Physiocare - Physiotherapy HTML Template</title>
+	<title><?php  echo $sitename ?></title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
 	<!-- Google Fonts Css-->

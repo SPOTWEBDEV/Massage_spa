@@ -7,80 +7,76 @@ include('../server/connection.php')
 
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-	<title>Physiocare - Physiotherapy HTML Template</title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Awaiken">
+    <!-- Page Title -->
+    <title><?php  echo $sitename ?></title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
-	<link href="<?php echo $domain ?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
-	<link href="<?php echo $domain ?>assets/css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="<?php echo $domain ?>assets/css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
-	<link href="<?php echo $domain ?>assets/css/all.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="<?php echo $domain ?>assets/css/animate.css" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="<?php echo $domain ?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="<?php echo $domain ?>assets/css/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="<?php echo $domain ?>assets/css/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Css-->
+    <link href="<?php echo $domain ?>assets/css/all.css" rel="stylesheet" media="screen">
+    <!-- Animated Css -->
+    <link href="<?php echo $domain ?>assets/css/animate.css" rel="stylesheet">
     <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="<?php echo $domain ?>assets/css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="<?php echo $domain ?>assets/css/mousecursor.css">
-	<!-- Main Custom Css -->
-	<link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="<?php echo $domain ?>assets/css/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="<?php echo $domain ?>assets/css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
 </head>
+
 <body>
 
     <!-- Preloader Start -->
-	<div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
-		</div>
-	</div>
-	<!-- Preloader End -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
 
     <?php include('../includes/navbar.php') ?>
 
     <!-- Page Header Start -->
-	<div class="page-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<!-- Page Header Box Start -->
-					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Emily Brown</h1>
-						<nav class="wow fadeInUp">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="index-2.html">home</a></li>
-                                <li class="breadcrumb-item"><a href="index-2.html">our therapists</a></li>
-								<li class="breadcrumb-item active" aria-current="page">dr. emily brown</li>
-							</ol>
-						</nav>
-					</div>
-					<!-- Page Header Box End -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Page Header End -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Emily Brown</h1>
+
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
 
     <!-- Team Details Section Start -->
     <div class="page-team-single">
         <div class="container">
             <div class="row no-gutters">
-				<div class="col-lg-5">
+                <div class="col-lg-5">
                     <!-- team member image start -->
                     <div class="team-member-image">
                         <figure class="image-anime">
@@ -94,17 +90,17 @@ include('../server/connection.php')
                     <div class="team-member-details">
                         <div class="member-detail-header">
                             <h2 class="text-anime-style-2">Dr. Emily Johnson</h2>
-                            <p class="wow fadeInUp">Senior Physiotherapist</p>
+                            <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">A physiotherapist will ask you about your current level of activity and any particular problems you're having. They will also examine your joints to assess your muscle strength and the range.</p>                            
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. Emily Johnson specializes in various massage techniques, including deep tissue, Swedish, and hot stone massage. She customizes each session to meet your specific needs, promoting relaxation, pain relief, and improved mobility.</p>
                         </div>
 
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
-                                <li><span>Position</span>Physiotherapist</li>
+                                <li><span>Position</span>Massage Therapist</li>
                                 <li><span>Experience</span>06 Years</li>
-                                <li><span>Email</span>domain@gmail.com</li>
+                                <li><span>Email</span>contact@<?php echo $siteemail ?></li>
                             </ul>
                         </div>
 
@@ -113,12 +109,13 @@ include('../server/connection.php')
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>									
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
+
                     <!-- team member details end -->
-                </div>                
+                </div>
             </div>
         </div>
     </div>
@@ -149,7 +146,7 @@ include('../server/connection.php')
                             <p class="wow fadeInUp" data-wow-delay="0.25s">You to resume or maintain a active and power independent life both at home & work.</p>
                         </div>
                         <!-- Winning Awards Content End -->
-                        
+
                         <!-- Winning Awards Box Start -->
                         <div class="winning-awards-box">
                             <div class="row">
@@ -178,7 +175,7 @@ include('../server/connection.php')
                                 </div>
                             </div>
                         </div>
-                        <!-- Winning Awards Box End -->                   
+                        <!-- Winning Awards Box End -->
                     </div>
                     <!-- Member Winning Awards End -->
                 </div>
@@ -188,65 +185,17 @@ include('../server/connection.php')
                     <div class="team-member-skills">
                         <!-- Member Skills Title Start -->
                         <div class="member-skills-title">
-                            <h2 class="wow fadeInUp">professional skills</h2>
+                            <h2 class="wow fadeInUp">Professional Massage Skills</h2>
                         </div>
                         <!-- Member Skills Title End -->
 
                         <!-- Skills Progress Bar Start -->
                         <div class="skills-progress-bar">
                             <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="80%">
-                                <div class="skill-data">
-                                    <div class="skill-title">patient diagnosis</div>
-                                    <div class="skill-no">80%</div>
-                                </div>
-                                <div class="skill-progress">
-                                    <div class="count-bar"></div>
-                                </div>
-                            </div>
-                            <!-- Skill Item End -->
-                        </div>
-                        <!-- Skills Progress Bar End -->
-
-                        <!-- Skills Progress Bar Start -->
-                        <div class="skills-progress-bar">
-                            <!-- Skill Item Start -->
                             <div class="skillbar" data-percent="85%">
                                 <div class="skill-data">
-                                    <div class="skill-title">treatment planning</div>
+                                    <div class="skill-title">Deep Tissue Massage</div>
                                     <div class="skill-no">85%</div>
-                                </div>
-                                <div class="skill-progress">
-                                    <div class="count-bar"></div>
-                                </div>
-                            </div>
-                            <!-- Skill Item End -->
-                        </div>
-                        <!-- Skills Progress Bar End -->
-
-                        <!-- Skills Progress Bar Start -->
-                        <div class="skills-progress-bar">
-                            <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="98%">
-                                <div class="skill-data">
-                                    <div class="skill-title">manual therapy techniques</div>
-                                    <div class="skill-no">98%</div>
-                                </div>
-                                <div class="skill-progress">
-                                    <div class="count-bar"></div>
-                                </div>
-                            </div>
-                            <!-- Skill Item End -->
-                        </div>
-                        <!-- Skills Progress Bar End -->
-
-                        <!-- Skills Progress Bar Start -->
-                        <div class="skills-progress-bar">
-                            <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="92%">
-                                <div class="skill-data">
-                                    <div class="skill-title">exercise prescription</div>
-                                    <div class="skill-no">92%</div>
                                 </div>
                                 <div class="skill-progress">
                                     <div class="count-bar"></div>
@@ -261,7 +210,7 @@ include('../server/connection.php')
                             <!-- Skill Item Start -->
                             <div class="skillbar" data-percent="90%">
                                 <div class="skill-data">
-                                    <div class="skill-title">electrotherapy skill</div>
+                                    <div class="skill-title">Swedish Massage</div>
                                     <div class="skill-no">90%</div>
                                 </div>
                                 <div class="skill-progress">
@@ -275,10 +224,58 @@ include('../server/connection.php')
                         <!-- Skills Progress Bar Start -->
                         <div class="skills-progress-bar">
                             <!-- Skill Item Start -->
-                            <div class="skillbar" data-percent="86%">
+                            <div class="skillbar" data-percent="95%">
                                 <div class="skill-data">
-                                    <div class="skill-title">interpersonal skills</div>
-                                    <div class="skill-no">86%</div>
+                                    <div class="skill-title">Hot Stone Therapy</div>
+                                    <div class="skill-no">95%</div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="count-bar"></div>
+                                </div>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Progress Bar End -->
+
+                        <!-- Skills Progress Bar Start -->
+                        <div class="skills-progress-bar">
+                            <!-- Skill Item Start -->
+                            <div class="skillbar" data-percent="80%">
+                                <div class="skill-data">
+                                    <div class="skill-title">Aromatherapy Massage</div>
+                                    <div class="skill-no">80%</div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="count-bar"></div>
+                                </div>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Progress Bar End -->
+
+                        <!-- Skills Progress Bar Start -->
+                        <div class="skills-progress-bar">
+                            <!-- Skill Item Start -->
+                            <div class="skillbar" data-percent="88%">
+                                <div class="skill-data">
+                                    <div class="skill-title">Sports Massage</div>
+                                    <div class="skill-no">88%</div>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="count-bar"></div>
+                                </div>
+                            </div>
+                            <!-- Skill Item End -->
+                        </div>
+                        <!-- Skills Progress Bar End -->
+
+                        <!-- Skills Progress Bar Start -->
+                        <div class="skills-progress-bar">
+                            <!-- Skill Item Start -->
+                            <div class="skillbar" data-percent="92%">
+                                <div class="skill-data">
+                                    <div class="skill-title">Client Care & Relaxation</div>
+                                    <div class="skill-no">92%</div>
                                 </div>
                                 <div class="skill-progress">
                                     <div class="count-bar"></div>
@@ -299,14 +296,14 @@ include('../server/connection.php')
                                     <div class="icon-box">
                                         <img src="<?php echo $domain ?>assets/images/icon-cta.svg" alt="">
                                     </div>
-        
+
                                     <div class="cta-content">
-                                        <h3>ready to start your journey to recovery?</h3>
-                                        <p>Contact us today to schedule your initial consultation and take the first step towards a pain-free life.</p>
+                                        <h3>Ready to experience ultimate relaxation?</h3>
+                                        <p>Contact us today to schedule your personalized massage therapy session and begin your journey to a more relaxed and pain-free lifestyle.</p>
 
                                         <!-- Cta Appointment Button Start -->
                                         <div class="cta-appointment-btn">
-                                            <a href="#" class="btn-default">book appointment</a>
+                                            <a href="#" class="btn-default">Book Appointment</a>
                                         </div>
                                         <!-- Cta Appointment Button End -->
                                     </div>
@@ -317,6 +314,7 @@ include('../server/connection.php')
                     </div>
                     <!-- Team Sidebar Cta Box End -->
                 </div>
+
             </div>
         </div>
     </div>
@@ -341,12 +339,12 @@ include('../server/connection.php')
             </div>
         </div>
     </div>
-	<!-- Scrolling Ticker Section End -->  
+    <!-- Scrolling Ticker Section End -->
 
     <!-- Footer Start -->
     <?php include('../includes/footer.php') ?>
     <!-- Footer End -->
-    
+
     <!-- Jquery Library File -->
     <script src="<?php echo $domain ?>assets/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -378,8 +376,9 @@ include('../server/connection.php')
     <script src="<?php echo $domain ?>assets/js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="<?php echo $domain ?>assets/js/function.js"></script>
-	<script src="../../assets/<?php echo $domain ?>assets/js/theme-panel.js"></script>
+    <script src="../../assets/<?php echo $domain ?>assets/js/theme-panel.js"></script>
 </body>
 
 <!-- Mirrored from demo.awaikenthemes.com/html-preview/physiocare/therapist-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Feb 2025 22:50:14 GMT -->
+
 </html>

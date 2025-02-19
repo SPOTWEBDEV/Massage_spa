@@ -6,9 +6,9 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li><a href="#"><img src="<?php echo $domain ?>assets/images/icon-phone.svg" alt=""> +(123) 698-5245</a></li>
-                            <li><a href="#"><img src="<?php echo $domain ?>assets/images/icon-mail.svg" alt=""> info@domain.com</a></li>
-                            <li class="hide-mobile"><a href="#"><img src="<?php echo $domain ?>assets/images/icon-location.svg" alt=""> 24/11 Robert Road, New York, USA</a></li>
+                            <li><a href="#"><img src="<?php echo $domain ?>assets/images/icon-phone.svg" alt=""> <?php echo $sitephone ?></a></li>
+                            <li><a href="#"><img src="<?php echo $domain ?>assets/images/icon-mail.svg" alt=""> <?php echo $siteemail ?></a></li>
+                            <li class="hide-mobile"><a href="#"><img src="<?php echo $domain ?>assets/images/icon-location.svg" alt=""> <?php echo $siteaddress ?></a></li>
                         </ul>
                     </div>
                     <!-- Topbar Contact Information End -->
@@ -57,7 +57,7 @@
                         </div>
                         <!-- Let’s Start Button Start -->
                         <div class="header-btn d-inline-flex">
-                            <a href="#" class="btn-default">+(123) 698-5245</a>
+                            <a href="#" class="btn-default"><?php echo $sitephone ?></a>
                         </div>
                         <!-- Let’s Start Button End -->
 					</div>

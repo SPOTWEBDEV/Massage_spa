@@ -18,7 +18,7 @@ include('./server/connection.php')
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-	<title>Physiocare - Physiotherapy HTML Template</title>
+	<title><?php echo $sitename ?></title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
 	<!-- Google Fonts Css-->
@@ -187,79 +187,6 @@ include('./server/connection.php')
                             </div>
                         <!-- Section Title End -->
 
-                        <!-- About Us Body Start -->
-                        <div class="about-us-body">
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-1.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>nutrition strategies</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-2.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>be pro active</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.75s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-3.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>workout routines</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.75s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-4.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>support & motivation</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-                        </div>
-                        <!-- About Us Body End -->
-
-                        <!-- About Us Footer Start -->
-                        <div class="about-us-footer">
-                            <!-- Doctor Info Start -->
-                            <div class="doctor-info wow fadeInUp" data-wow-delay="1s">
-                                <div class="doctor-info-item">
-                                    <div class="image-box">
-                                        <figure class="image-anime">
-                                            <img src="<?php echo $domain ?>assets/images/about-doctor-img.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="doctor-info-content">
-                                        <h3>dr. jamie smith</h3>
-                                        <p>Physiotherapy</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Doctor Info End -->
-
-                            <!-- Appointment Button Start -->
-                            <div class="appointment-btn wow fadeInUp" data-wow-delay="1s">
-                                <a href="#" class="btn-default">Make an appointment</a>
-                            </div>
-                            <!-- Appointment Button End -->
-                        </div>
-                        <!-- About Us Footer End -->
                         </div>
                     <!-- About Us Content End -->
                 </div>
@@ -691,148 +618,7 @@ include('./server/connection.php')
     </div>
     <!-- Solution Your Plan End -->
 
-    <!-- Why Choose Us Start -->
-     <div class="why-choose-us">
-        <div class="container">
-            <div class="row section-row">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">why us</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Excellence In</span> Care And Rehabilitation</h2>
-                    </div>
-                <!-- Section Title End -->
-            </div>
-
-            <!-- Why Choose Us Box Start -->
-            <div class="why-choose-us-box">
-                <div class="row no-gutters align-items-center">
-                    <div class="col-lg-6">
-                        <!-- Why Choose Box Start -->
-                        <div class="why-choose-box-1">
-                            <!-- Why Choose Item Start -->
-                            <div class="why-choose-item wow fadeInUp">
-                                <!-- Icon Box Start -->
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-why-us-1.svg" alt="">
-                                </div>  
-                                <!-- Icon Box End -->
-    
-                                <!-- Why Choose Content Start -->
-                                <div class="why-choose-content">
-                                    <h3>experienced team</h3>
-                                    <p>We understand that injuries and acute pain can  unexpectedly.</p>
-                                </div>
-                                <!-- Why Choose Content End -->
-                            </div>
-                            <!-- Why Choose Item End -->
-    
-                            <!-- Why Choose Item Start -->
-                            <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
-                                <!-- Icon Box Start -->
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-why-us-2.svg" alt="">
-                                </div>  
-                                <!-- Icon Box End -->
-    
-                                <!-- Why Choose Content Start -->
-                                <div class="why-choose-content">
-                                    <h3>patient-centered approach</h3>
-                                    <p>We understand that injuries and acute pain can  unexpectedly.</p>
-                                </div>
-                                <!-- Why Choose Content End -->
-                            </div>
-                            <!-- Why Choose Item End -->
-    
-                            <!-- Why Choose Item Start -->
-                            <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
-                                <!-- Icon Box Start -->
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-why-us-3.svg" alt="">
-                                </div>  
-                                <!-- Icon Box End -->
-    
-                                <!-- Why Choose Content Start -->
-                                <div class="why-choose-content">
-                                    <h3>expertise and experience</h3>
-                                    <p>We understand that injuries and acute pain can  unexpectedly.</p>
-                                </div>
-                                <!-- Why Choose Content End -->
-                            </div>
-                            <!-- Why Choose Item End -->
-                        </div>
-                        <!-- Why Choose Box End -->
-                    </div>
-    
-                    <div class="col-lg-6">
-                        <!-- Why Choose Box Start -->
-                        <div class="why-choose-box-2">
-                            <!-- Why Choose Item Start -->
-                            <div class="why-choose-item wow fadeInUp">
-                                <!-- Icon Box Start -->
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-why-us-4.svg" alt="">
-                                </div>  
-                                <!-- Icon Box End -->
-    
-                                <!-- Why Choose Content Start -->
-                                <div class="why-choose-content">
-                                    <h3>advanced technology</h3>
-                                    <p>We understand that injuries and acute pain can  unexpectedly.</p>
-                                </div>
-                                <!-- Why Choose Content End -->
-                            </div>
-                            <!-- Why Choose Item End -->
-    
-                            <!-- Why Choose Item Start -->
-                            <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
-                                <!-- Icon Box Start -->
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-why-us-5.svg" alt="">
-                                </div>  
-                                <!-- Icon Box End -->
-    
-                                <!-- Why Choose Content Start -->
-                                <div class="why-choose-content">
-                                    <h3>convenient and accessible</h3>
-                                    <p>We understand that injuries and acute pain can  unexpectedly.</p>
-                                </div>
-                                <!-- Why Choose Content End -->
-                            </div>
-                            <!-- Why Choose Item End -->
-    
-                            <!-- Why Choose Item Start -->
-                            <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
-                                <!-- Icon Box Start -->
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-why-us-6.svg" alt="">
-                                </div>  
-                                <!-- Icon Box End -->
-    
-                                <!-- Why Choose Content Start -->
-                                <div class="why-choose-content">
-                                    <h3>community involvement</h3>
-                                    <p>We understand that injuries and acute pain can  unexpectedly.</p>
-                                </div>
-                                <!-- Why Choose Content End -->
-                            </div>
-                            <!-- Why Choose Item End -->
-                        </div>
-                        <!-- Why Choose Box End -->
-                    </div>
-
-                    <div class="col-lg-12">
-                        <!-- Why Choose Image Start -->
-                        <div class="why-choose-image">
-                            <img src="<?php echo $domain ?>assets/images/why-us-img.png" alt="">
-                        </div>
-                        <!-- Why Choose Image End -->
-                    </div>
-                </div>
-            </div>
-            <!-- Why Choose Us Box End -->
-        </div>
-     </div>
-    <!-- Why Choose Us End -->
+ 
 
     <!-- Need Attention Start -->
      <div class="need-attention parallaxie">
@@ -1014,160 +800,7 @@ include('./server/connection.php')
      </div>
     <!-- Need Attention End -->
 
-    <!-- Our Team Start -->
-    <div class="our-team">
-        <div class="container">
-            <div class="row align-items-center section-row">
-                <div class="col-lg-9">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">theraphist team</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Our Dedicated</span> & Experienced Therapist Team</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
 
-                <div class="col-lg-3">
-                    <!-- Section Button Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default">view all team</a>
-                    </div>
-                    <!-- Section Button End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Member Item Start -->
-                    <div class="team-member-item wow fadeInUp">
-                        <!-- Team Image Start -->
-                        <div class="team-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/team-1.jpg" alt="">
-                            </figure>
-                
-                            <!-- Team Social Icon Start -->
-                            <div class="team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social Icon End -->
-                        </div>
-                        <!-- Team Image End -->
-                
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3>dr. emily brown</h3>
-                            <p>senior physiotherapist</p>
-                        </div>
-                        <!-- Team Content End -->
-                    </div>
-                    <!-- Team Member Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Member Item Start -->
-                    <div class="team-member-item wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Team Image Start -->
-                        <div class="team-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/team-2.jpg" alt="">
-                            </figure>
-                
-                            <!-- Team Social Icon Start -->
-                            <div class="team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social Icon End -->
-                        </div>
-                        <!-- Team Image End -->
-                
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3>dr. lisa johnson</h3>
-                            <p>pediatric theraphist</p>
-                        </div>
-                        <!-- Team Content End -->
-                    </div>
-                    <!-- Team Member Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Member Item Start -->
-                    <div class="team-member-item wow fadeInUp"  data-wow-delay="0.5s">
-                        <!-- Team Image Start -->
-                        <div class="team-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/team-3.jpg" alt="">
-                            </figure>
-                
-                            <!-- Team Social Icon Start -->
-                            <div class="team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social Icon End -->
-                        </div>
-                        <!-- Team Image End -->
-                
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3>dr. jessica wilson</h3>
-                            <p>neurological theraphist</p>
-                        </div>
-                        <!-- Team Content End -->
-                    </div>
-                    <!-- Team Member Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Team Member Item Start -->
-                    <div class="team-member-item wow fadeInUp" data-wow-delay="0.75s">
-                        <!-- Team Image Start -->
-                        <div class="team-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/team-4.jpg" alt="">
-                            </figure>
-                
-                            <!-- Team Social Icon Start -->
-                            <div class="team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- Team Social Icon End -->
-                        </div>
-                        <!-- Team Image End -->
-                
-                        <!-- Team Content Start -->
-                        <div class="team-content">
-                            <h3>dr. linda thomas</h3>
-                            <p>orthopedic theraphist</p>
-                        </div>
-                        <!-- Team Content End -->
-                    </div>
-                    <!-- Team Member Item End -->
-                </div>
-            </div>
-        </div>
-        </div>
-    <!-- Our Team End -->
 
     <!-- Client Testimonial Start -->
     <div class="our-testimonial parallaxie">
@@ -1187,131 +820,132 @@ include('./server/connection.php')
                 <div class="col-lg-12">
                     <!-- Testimonial Slider Start -->
                     <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>									
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="<?php echo $domain ?>assets/images/author-1.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>johan duo</h3>
-                                                <p>professional athlete</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-            
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>	
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="<?php echo $domain ?>assets/images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>jane smith</h3>
-                                                <p>retired teacher</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>	
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="<?php echo $domain ?>assets/images/author-3.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>robert lee</h3>
-                                                <p>construction worker</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>	
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="<?php echo $domain ?>assets/images/author-4.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>banson doe</h3>
-                                                <p>marathon runner</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-                            </div>
-                            <div class="swiper-pagination"></div>
+    <div class="swiper">
+        <div class="swiper-wrapper" data-cursor-text="Drag">
+            <!-- Testimonial Slide Start -->
+            <div class="swiper-slide">
+                <div class="testimonial-item">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"I’ve never felt more relaxed! The deep tissue massage helped release so much tension in my muscles. Highly recommend <?php echo $sitename ?> for an unforgettable experience!"</p>
                         </div>
                     </div>
+                    <div class="testimonial-body">
+                        <div class="author-image">
+                            <figure class="image-anime">
+                                <img src="<?php echo $domain ?>assets/images/author-1.jpg" alt="">
+                            </figure>
+                        </div>            
+                        <div class="author-content">
+                            <h3>Johan Duo</h3>
+                            <p>Professional Athlete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Slide End -->
+
+            <!-- Testimonial Slide Start -->
+            <div class="swiper-slide">
+                <div class="testimonial-item">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"The hot stone massage at <?php echo $sitename ?> was exactly what I needed to relieve my chronic back pain. The staff is so professional and the atmosphere is so soothing!"</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-body">
+                        <div class="author-image">
+                            <figure class="image-anime">
+                                <img src="<?php echo $domain ?>assets/images/author-2.jpg" alt="">
+                            </figure>
+                        </div>            
+                        <div class="author-content">
+                            <h3>Jane Smith</h3>
+                            <p>Retired Teacher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Slide End -->
+
+            <!-- Testimonial Slide Start -->
+            <div class="swiper-slide">
+                <div class="testimonial-item">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"I had an amazing experience at <?php echo $sitename ?>! The Swedish massage was so relaxing, and I felt completely rejuvenated after the session. Highly recommend it!"</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-body">
+                        <div class="author-image">
+                            <figure class="image-anime">
+                                <img src="<?php echo $domain ?>assets/images/author-3.jpg" alt="">
+                            </figure>
+                        </div>            
+                        <div class="author-content">
+                            <h3>Robert Lee</h3>
+                            <p>Construction Worker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Slide End -->
+
+            <!-- Testimonial Slide Start -->
+            <div class="swiper-slide">
+                <div class="testimonial-item">
+                    <div class="testimonial-header">
+                        <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>"The massage at <?php echo $sitename ?> helped me recover from my marathon training. The therapists really understand the importance of muscle recovery!"</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-body">
+                        <div class="author-image">
+                            <figure class="image-anime">
+                                <img src="<?php echo $domain ?>assets/images/author-4.jpg" alt="">
+                            </figure>
+                        </div>            
+                        <div class="author-content">
+                            <h3>Banson Doe</h3>
+                            <p>Marathon Runner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial Slide End -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
                     <!-- Testimonial Slider End -->
                 </div>
             </div>
@@ -1555,7 +1189,7 @@ include('./server/connection.php')
                                     <img src="<?php echo $domain ?>assets/images/icon-location.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p>24/11 Robert Road,New York,USA</p>
+                                    <p><?php  echo $siteaddress ?></p>
                                 </div>                                
                             </div>
                             <!-- Footer Info Box End -->
@@ -1572,7 +1206,7 @@ include('./server/connection.php')
                     <div class="col-lg-6 col-md-6">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright 2024 Physiocare. All Rights Reserved.</p>
+                            <p>Copyright 2024<?php echo $sitename ?> All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>

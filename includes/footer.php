@@ -89,7 +89,7 @@
                                     <img src="<?php echo $domain ?>assets/images/icon-location.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p>24/11 Robert Road,New York,USA</p>
+                                    <p><?php  echo $siteaddress ?></p>
                                 </div>                                
                             </div>
                             <!-- Footer Info Box End -->
@@ -106,7 +106,7 @@
                     <div class="col-lg-6 col-md-6">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright 2024 Physiocare. All Rights Reserved.</p>
+                            <p>Copyright 2024<?php echo $sitename ?> All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>
@@ -115,9 +115,9 @@
                         <!-- Footer Social Link Start -->
                         <div class="footer-links">
                             <ul>
-                                <li><a href="#">about us</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">contact us</a></li>
+                                <li><a href="<?php echo $domain ?>about/">about us</a></li>
+                                <li><a href="<?php echo $domain ?>portfolio/">portfolio</a></li>
+                                <li><a href="<?php echo $domain ?>contact/">contact us</a></li>
                             </ul>
                         </div>
                         <!-- Footer Social Link End -->

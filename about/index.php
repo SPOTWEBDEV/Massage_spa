@@ -16,7 +16,7 @@ include('../server/connection.php')
     <meta name="keywords" content="">
     <meta name="author" content="Awaiken">
     <!-- Page Title -->
-    <title>Physiocare - Physiotherapy HTML Template</title>
+    <title><?php  echo $sitename ?></title>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
     <!-- Google Fonts Css-->
@@ -109,75 +109,7 @@ include('../server/connection.php')
                         </div>
                         <!-- Section Title End -->
 
-                        <!-- About Us Body Start -->
-                        <div class="about-us-body">
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-1.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>Therapeutic Techniques</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-2.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>Personalized Care</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.75s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-3.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>Relaxation & Stress Relief</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-
-                            <!-- About List Item Start -->
-                            <div class="about-list-item wow fadeInUp" data-wow-delay="0.75s">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-about-us-4.svg" alt="">
-                                </div>
-                                <div class="about-list-content">
-                                    <h3>Holistic Healing</h3>
-                                </div>
-                            </div>
-                            <!-- About List Item End -->
-                        </div>
-                        <!-- About Us Body End -->
-
-                        <!-- About Us Footer Start -->
-                        <div class="about-us-footer">
-                            <!-- Therapist Info Start -->
-                            <div class="doctor-info wow fadeInUp" data-wow-delay="1s">
-                                <div class="doctor-info-item">
-                                    
-                                    <div class="doctor-info-content">
-                                        <h3>Sarah Williams</h3>
-                                        <p>Certified Massage Therapist</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Therapist Info End -->
-
-                            <!-- Appointment Button Start -->
-                            <div class="appointment-btn wow fadeInUp" data-wow-delay="1s">
-                                <a href="#" class="btn-default">Book a Massage</a>
-                            </div>
-                            <!-- Appointment Button End -->
-                        </div>
-                        <!-- About Us Footer End -->
+                        
                     </div>
                     <!-- About Us Content End -->
                 </div>
@@ -277,7 +209,7 @@ include('../server/connection.php')
                         <!-- Mva Content Start -->
                         <div class="mva-item-content">
                             <h3>our mission</h3>
-                            <p>Our mission is to provide professional massage therapy that relieves stress, reduces muscle tension, and promotes overall well-being. We are committed to helping you achieve ultimate relaxation and rejuvenation.</p>
+                            <p>Our mission is to provide high-quality, therapeutic massage treatments that enhance overall well-being. We believe that healing begins with touch, and we are dedicated to creating a space where relaxation, rejuvenation, and restoration come together.</p>
                         </div>
                         <!-- Mva Content End -->
                     </div>
@@ -296,7 +228,7 @@ include('../server/connection.php')
                         <!-- Mva Content Start -->
                         <div class="mva-item-content">
                             <h3>our vision</h3>
-                            <p>We envision a world where everyone can enjoy the benefits of massage therapy, enhancing their physical and mental health. Our goal is to be a trusted name in holistic wellness and relaxation.</p>
+                            <p>Our vision is to create a sanctuary where clients feel safe, valued, and cared for. We want to redefine massage therapy by integrating traditional healing techniques with modern approaches for a truly transformative experience.  </p>
                         </div>
                         <!-- Mva Content End -->
                     </div>
@@ -315,7 +247,7 @@ include('../server/connection.php')
                         <!-- Mva Content Start -->
                         <div class="mva-item-content">
                             <h3>our approach</h3>
-                            <p>We combine traditional and modern massage techniques to create a personalized experience. Our therapists focus on your individual needs, ensuring you leave feeling refreshed and revitalized.</p>
+                            <p>Our approach goes beyond just physical relief. We believe in the connection between the mind and body, offering holistic treatments that promote deep relaxation and stress reduction. Every touch is intentional, and every therapy is designed to restore harmony to your body.  </p>
                         </div>
                         <!-- Mva Content End -->
                     </div>
@@ -380,8 +312,8 @@ include('../server/connection.php')
                         <!-- Video Image Start -->
                         <div class="video-image">
                             <figure class="image-anime relative">
-                                <video autoplay class="w-full h-auto max-w-[700px]" controls>
-                                    <source autoplay src="<?php echo $domain ?>assets/videos/1.mp4" type="video/mp4">
+                                <video  class="w-full h-auto max-w-[700px]" controls>
+                                    <source  src="<?php echo $domain ?>assets/videos/1.mp4" type="video/mp4">
                                 </video>
                             </figure>
                         </div>
@@ -406,20 +338,12 @@ include('../server/connection.php')
                             <h3 class="wow fadeInUp">Relaxation & Wellness</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque"> <span>We Proudly</span> Offer Quality Massage Therapy</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">
-                                Experience the healing power of massage therapy. Our skilled therapists provide a range of massages to help relieve stress, ease muscle tension, and restore overall well-being in a soothing atmosphere.
+                            We are a team of certified and passionate massage therapists dedicated to your well-being. Our expertise spans various massage techniques, including Swedish, deep tissue, hot stone, and aromatherapy, ensuring that every session is customized to meet your specific needs.  
                             </p>
                         </div>
                         <!-- Section Title End -->
 
-                        <!-- Quality Massage Body Start -->
-                        <div class="quality-treatment-body wow fadeInUp" data-wow-delay="0.5s">
-                            <ul>
-                                <li>Relieve stress and tension effectively.</li>
-                                <li>Personalized massage treatments for your needs.</li>
-                                <li>Enjoy a relaxing and calming atmosphere.</li>
-                            </ul>
-                        </div>
-                        <!-- Quality Massage Body End -->
+                        
                     </div>
                     <!-- Quality Massage Content End -->
                 </div>
@@ -428,225 +352,10 @@ include('../server/connection.php')
     </div>
     <!-- Quality Massage Section End -->
 
-    <!-- Massage Therapy Process Start -->
-    <div class="therapy-process">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Massage Therapy Steps</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Our</span> Relaxation Process</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <!-- Therapy Process Item Start -->
-                    <div class="therapy-process-item wow fadeInUp">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/therapy-process-1.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Therapy Process Content Start -->
-                        <div class="therapy-process-content">
-                            <h3>Consultation with a Therapist</h3>
-                            <p>Share your needs and let us recommend the best massage therapy for you.</p>
-                        </div>
-                        <!-- Therapy Process Content End -->
-                    </div>
-                    <!-- Therapy Process Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Therapy Process Item Start -->
-                    <div class="therapy-process-item wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/therapy-process-2.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Therapy Process Content Start -->
-                        <div class="therapy-process-content">
-                            <h3>Choose Your Preferred Massage</h3>
-                            <p>Select from deep tissue, Swedish, hot stone, or other specialized treatments.</p>
-                        </div>
-                        <!-- Therapy Process Content End -->
-                    </div>
-                    <!-- Therapy Process Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Therapy Process Item Start -->
-                    <div class="therapy-process-item wow fadeInUp" data-wow-delay="0.5s">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/therapy-process-3.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Therapy Process Content Start -->
-                        <div class="therapy-process-content">
-                            <h3>Enjoy a Soothing Session</h3>
-                            <p>Relax as our expert therapists provide a rejuvenating massage experience.</p>
-                        </div>
-                        <!-- Therapy Process Content End -->
-                    </div>
-                    <!-- Therapy Process Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Therapy Process Item Start -->
-                    <div class="therapy-process-item wow fadeInUp" data-wow-delay="0.75s">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/therapy-process-4.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Therapy Process Content Start -->
-                        <div class="therapy-process-content">
-                            <h3>Feel Renewed & Refreshed</h3>
-                            <p>Leave feeling lighter, refreshed, and fully rejuvenated.</p>
-                        </div>
-                        <!-- Therapy Process Content End -->
-                    </div>
-                    <!-- Therapy Process Item End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Massage Therapy Process End -->
 
 
-    <!-- Client Testimonial Start -->
-    <div class="our-testimonial parallaxie">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Customer Reviews</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>What</span> Our Clients Say</h2>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>The massage therapy here is truly exceptional. I left feeling completely relaxed and rejuvenated.</p>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-content">
-                                                <h3>John Doe</h3>
-                                                <p>Software Engineer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>The therapists are professional and skilled. My stress melted away during the session.</p>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-content">
-                                                <h3>Jane Smith</h3>
-                                                <p>Marketing Manager</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>I highly recommend this place for anyone looking for quality massage therapy.</p>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-content">
-                                                <h3>Robert Lee</h3>
-                                                <p>Financial Analyst</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>A fantastic experience from start to finish. I feel completely refreshed!</p>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <div class="author-content">
-                                                <h3>Emily Davis</h3>
-                                                <p>Doctor</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Client Testimonial End -->
 
 
 

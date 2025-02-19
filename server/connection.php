@@ -38,7 +38,7 @@ elseif ($request == 'http') {
     $domain = "http://localhost/Massage_spa/";
     define("USER", "root");
     define("PASSWORD", "");
-    define("DATABASE", "jay");
+    define("DATABASE", "booking");
 }
 
 // // Database connection
@@ -49,7 +49,7 @@ if (!$connection) {
 }
 
 // // Site configurations
-$sitename = "Body And Soul Relax";
+$sitename = " Body And Soul Relax";
 
 
 // email config 
