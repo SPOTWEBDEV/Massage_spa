@@ -1,6 +1,6 @@
 <?php
 
-include('./server/connection.php')
+    include './server/connection.php';
 
 ?>
 
@@ -8,56 +8,56 @@ include('./server/connection.php')
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from demo.awaikenthemes.com/html-preview/physiocare/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Feb 2025 22:49:57 GMT -->
 <head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
-	<title><?php echo $sitename ?></title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Awaiken">
+    <!-- Page Title -->
+    <title><?php echo $sitename ?></title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
-	<link href="<?php echo $domain ?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
-	<link href="<?php echo $domain ?>assets/css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="<?php echo $domain ?>assets/css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
-	<link href="<?php echo $domain ?>assets/css/all.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="<?php echo $domain ?>assets/css/animate.css" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="<?php echo $domain ?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="<?php echo $domain ?>assets/css/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="<?php echo $domain ?>assets/css/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Css-->
+    <link href="<?php echo $domain ?>assets/css/all.css" rel="stylesheet" media="screen">
+    <!-- Animated Css -->
+    <link href="<?php echo $domain ?>assets/css/animate.css" rel="stylesheet">
     <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="<?php echo $domain ?>assets/css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="<?php echo $domain ?>assets/css/mousecursor.css">
-	<!-- Main Custom Css -->
-	<link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="<?php echo $domain ?>assets/css/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="<?php echo $domain ?>assets/css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
 </head>
+
 <body>
 
     <!-- Preloader Start -->
-	<div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
-		</div>
-	</div>
-	<!-- Preloader End -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
 
-     <?php include('./includes/navbar.php') ?>
+    <?php include './includes/navbar.php'?>
 
     <!-- Hero Section Start -->
-	<div class="hero bg-image parallaxie">
-		<div class="container">
+    <div class="hero bg-image parallaxie">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <!-- Hero Content Start -->
@@ -81,8 +81,8 @@ include('./server/connection.php')
                 </div>
             </div>
         </div>
-	</div>
-	<!-- Hero Section End -->
+    </div>
+    <!-- Hero Section End -->
 
     <!-- Home Contact Us Start -->
     <div class="home-contact-us">
@@ -146,7 +146,7 @@ include('./server/connection.php')
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     <!-- Home Contact Us End -->
 
     <!-- About Us Start -->
@@ -178,21 +178,21 @@ include('./server/connection.php')
                 </div>
                 <div class="col-lg-6">
                     <!-- About Us Content Start -->
-                        <div class="about-content">
+                    <div class="about-content">
                         <!-- Section Title Start -->
-                            <div class="section-title">
+                        <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">We Are The Best For <span>Physiotherapy</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible.</p>
-                            </div>
+                        </div>
                         <!-- Section Title End -->
 
-                        </div>
+                    </div>
                     <!-- About Us Content End -->
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     <!--  About Us End -->
 
     <!-- Gallery Carousel Section Start -->
@@ -311,14 +311,14 @@ include('./server/connection.php')
     <!-- Gallery Carousel Section End -->
 
     <!-- Our Service Start -->
-     <div class="our-service">
+    <div class="our-service">
         <div class="container">
             <div class="row align-items-center section-row">
                 <div class="col-lg-7">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">theraphist team</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>We Provide</span> The Best Services</h2>
+                        <h3 class="wow fadeInUp">Meet Our Expert Therapists</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Experience</span> Ultimate Relaxation & Healing</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -326,7 +326,7 @@ include('./server/connection.php')
                 <div class="col-lg-5">
                     <!-- Section Button Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default">view all services</a>
+                        <a href="#" class="btn-default">View All Services</a>
                     </div>
                     <!-- Section Button End -->
                 </div>
@@ -344,8 +344,8 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>manual therapy</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Deep Tissue Massage</h3>
+                            <p>Relieve chronic muscle tension and pain with our deep tissue massage, designed to penetrate deeper layers of muscle and fascia.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -370,8 +370,8 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>chronic pain</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Swedish Massage</h3>
+                            <p>Unwind with a soothing Swedish massage that enhances circulation, eases muscle tension, and promotes overall relaxation.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -396,8 +396,8 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>hand therapy</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Hot Stone Massage</h3>
+                            <p>Experience deep relaxation as heated stones melt away stress and tension, promoting physical and mental well-being.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -422,8 +422,8 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>sports therapy</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Sports Massage</h3>
+                            <p>Improve flexibility, prevent injuries, and enhance recovery with a targeted sports massage tailored for athletes and active individuals.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -448,8 +448,8 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>cupping therapy</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Aromatherapy Massage</h3>
+                            <p>Indulge in a sensory experience with essential oils designed to enhance relaxation, reduce stress, and promote healing.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -474,8 +474,8 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>laser therapy</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Reflexology</h3>
+                            <p>Balance your body's energy and promote relaxation with targeted foot and hand reflexology techniques.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -500,22 +500,23 @@ include('./server/connection.php')
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <h3>ready to start your journey to recovery?</h3>
-                            <p>We understand that injuries and acute pain can  unexpectedly. Our emergency physiotherapy.</p>
+                            <h3>Ready to Relax and Rejuvenate?</h3>
+                            <p>Book an appointment today and let our skilled therapists help you unwind, heal, and feel your best.</p>
                         </div>
                         <!-- Service Body End -->
 
                         <!-- Service Footer Start -->
                         <div class="service-cta-btn">
-                            <a href="#" class="btn-default">Book Appointment</a>
+                            <a href="#" class="btn-default">Book Now</a>
                         </div>
                         <!-- Service Footer End -->
                     </div>
                     <!-- Service Item End -->
-                </div>                
+                </div>
             </div>
         </div>
-     </div>
+    </div>
+
     <!-- Our Service End -->
 
     <!-- Solution Your Plan Start -->
@@ -544,18 +545,18 @@ include('./server/connection.php')
                     <div class="solution-plan-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">solution to your plan</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">  <span>We Proudly</span> Give Quality Treatment</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage.</p>
-                         </div>
+                            <h3 class="wow fadeInUp">Your Path to Relaxation</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"> <span>Experience</span> Ultimate Healing & Wellness</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that stress and muscle tension can affect your well-being. Our expert massage therapy services are designed to relax, rejuvenate, and restore your body and mind.</p>
+                        </div>
                         <!-- Section Title End -->
 
-                         <!-- Solution Plan Body Start -->
-                        <div class="solution-plan-body wow fadeInUp"  data-wow-delay="0.5s">
+                        <!-- Solution Plan Body Start -->
+                        <div class="solution-plan-body wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
-                                <li>We understand that injuries.</li>
-                                <li>can happen unexpectedly Our emergency.</li>
-                                <li>We understand that injuries.</li>
+                                <li>Relieve stress and tension.</li>
+                                <li>Improve blood circulation and flexibility.</li>
+                                <li>Experience deep relaxation and healing touch.</li>
                             </ul>
                         </div>
                         <!-- Solution Plan Body End -->
@@ -571,8 +572,8 @@ include('./server/connection.php')
                                         </div>
 
                                         <div class="solution-counter-content">
-                                            <h3><span class="counter">78</span>+</h3>
-                                            <p>skilled therapist</p>
+                                            <h3><span class="counter">50</span>+</h3>
+                                            <p>Certified Massage Therapists</p>
                                         </div>
                                     </div>
                                     <!-- Solution Counter Item End -->
@@ -586,8 +587,8 @@ include('./server/connection.php')
                                         </div>
 
                                         <div class="solution-counter-content">
-                                            <h3><span class="counter">98</span>%</h3>
-                                            <p>success rate</p>
+                                            <h3><span class="counter">95</span>%</h3>
+                                            <p>Customer Satisfaction</p>
                                         </div>
                                     </div>
                                     <!-- Solution Counter Item End -->
@@ -601,34 +602,35 @@ include('./server/connection.php')
                                         </div>
 
                                         <div class="solution-counter-content">
-                                            <h3><span class="counter">950</span>+</h3>
-                                            <p>patients treated</p>
+                                            <h3><span class="counter">1000</span>+</h3>
+                                            <p>Happy Clients Served</p>
                                         </div>
                                     </div>
                                     <!-- Solution Counter Item End -->
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                         <!-- Solution Plan Counter End -->
                     </div>
                 </div>
+
                 <!-- Solution Plan Content End -->
             </div>
         </div>
     </div>
     <!-- Solution Your Plan End -->
 
- 
+
 
     <!-- Need Attention Start -->
-     <div class="need-attention parallaxie">
+    <div class="need-attention parallaxie">
         <div class="container">
             <div class="row section-row">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">need attention</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Where Do You Need Attention?</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage.</p>
+                    <h3 class="wow fadeInUp">Relax & Rejuvenate</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Where Do You Need Relief?</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.25s">Whether you're experiencing muscle tension, stress, or chronic pain, our expert massage therapists provide targeted relief to restore your body’s natural balance.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -636,168 +638,108 @@ include('./server/connection.php')
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-6">
                     <!-- Need Attention List Start -->
-                     <div class="need-attention-list wow fadeInUp">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-1.svg" alt="">
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
-                        <div class="need-attention-content">
-                            <p>neck pain</p>
-                        </div>
-                        <!-- Need Attention Content End -->
-                     </div>
-                    <!-- Need Attention List End -->
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-2.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-neck.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>shoulder pain</p>
+                            <p>Neck Tension</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
                     <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-3.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-shoulder.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>hip pain</p>
+                            <p>Shoulder Stiffness</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
+                    <div class="need-attention-list wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-lowerback.svg" alt="">
+                        </div>
+                        <div class="need-attention-content">
+                            <p>Lower Back Pain</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-6">
                     <div class="need-attention-list wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-4.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-leg.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>knee pain</p>
+                            <p>Leg Fatigue</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-5.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-hands.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>elbow pain</p>
+                            <p>Hand & Wrist Strain</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-6.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-foot.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>tricep pain</p>
+                            <p>Foot Pain & Tension</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp" data-wow-delay="0.5s">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-7.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-hip.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>hand pain</p>
+                            <p>Hip & Sciatica Pain</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp" data-wow-delay="0.5s">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-8.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-elbow.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>foot pain</p>
+                            <p>Elbow & Arm Strain</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <!-- Need Attention List Start -->
                     <div class="need-attention-list wow fadeInUp" data-wow-delay="0.5s">
-                        <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-need-attention-9.svg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/icon-massage-ankle.svg" alt="">
                         </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Need Attention Content Start -->
                         <div class="need-attention-content">
-                            <p>ankle pain</p>
+                            <p>Ankle Stress</p>
                         </div>
-                        <!-- Need Attention Content End -->
                     </div>
-                    <!-- Need Attention List End -->
                 </div>
             </div>
         </div>
-     </div>
+    </div>
+
     <!-- Need Attention End -->
 
 
@@ -819,6 +761,7 @@ include('./server/connection.php')
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Testimonial Slider Start -->
+
                     <div class="testimonial-slider">
     <div class="swiper">
         <div class="swiper-wrapper" data-cursor-text="Drag">
@@ -834,15 +777,10 @@ include('./server/connection.php')
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="testimonial-content">
-                            <p>"I’ve never felt more relaxed! The deep tissue massage helped release so much tension in my muscles. Highly recommend <?php echo $sitename ?> for an unforgettable experience!"</p>
+                            <p>"I’ve never felt more relaxed! The deep tissue massage helped release so much tension in my muscles. Highly recommend                                                                                                                                                       <?php echo $sitename ?> for an unforgettable experience!"</p>
                         </div>
                     </div>
                     <div class="testimonial-body">
-                        <div class="author-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/author-1.jpg" alt="">
-                            </figure>
-                        </div>            
                         <div class="author-content">
                             <h3>Johan Duo</h3>
                             <p>Professional Athlete</p>
@@ -864,15 +802,10 @@ include('./server/connection.php')
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="testimonial-content">
-                            <p>"The hot stone massage at <?php echo $sitename ?> was exactly what I needed to relieve my chronic back pain. The staff is so professional and the atmosphere is so soothing!"</p>
+                            <p>"The hot stone massage at                                                         <?php echo $sitename ?> was exactly what I needed to relieve my chronic back pain. The staff is so professional and the atmosphere is so soothing!"</p>
                         </div>
                     </div>
                     <div class="testimonial-body">
-                        <div class="author-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/author-2.jpg" alt="">
-                            </figure>
-                        </div>            
                         <div class="author-content">
                             <h3>Jane Smith</h3>
                             <p>Retired Teacher</p>
@@ -894,15 +827,10 @@ include('./server/connection.php')
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="testimonial-content">
-                            <p>"I had an amazing experience at <?php echo $sitename ?>! The Swedish massage was so relaxing, and I felt completely rejuvenated after the session. Highly recommend it!"</p>
+                            <p>"I had an amazing experience at                                                               <?php echo $sitename ?>! The Swedish massage was so relaxing, and I felt completely rejuvenated after the session. Highly recommend it!"</p>
                         </div>
                     </div>
                     <div class="testimonial-body">
-                        <div class="author-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/author-3.jpg" alt="">
-                            </figure>
-                        </div>            
                         <div class="author-content">
                             <h3>Robert Lee</h3>
                             <p>Construction Worker</p>
@@ -924,15 +852,10 @@ include('./server/connection.php')
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="testimonial-content">
-                            <p>"The massage at <?php echo $sitename ?> helped me recover from my marathon training. The therapists really understand the importance of muscle recovery!"</p>
+                            <p>"The massage at                                               <?php echo $sitename ?> helped me recover from my marathon training. The therapists really understand the importance of muscle recovery!"</p>
                         </div>
                     </div>
                     <div class="testimonial-body">
-                        <div class="author-image">
-                            <figure class="image-anime">
-                                <img src="<?php echo $domain ?>assets/images/author-4.jpg" alt="">
-                            </figure>
-                        </div>            
                         <div class="author-content">
                             <h3>Banson Doe</h3>
                             <p>Marathon Runner</p>
@@ -946,159 +869,40 @@ include('./server/connection.php')
     </div>
 </div>
 
+
                     <!-- Testimonial Slider End -->
                 </div>
             </div>
         </div>
-        </div>
-    <!-- Client Testimonial End -->
-    
-    <!-- Our Blog Section End -->
-    <div class="our-blog">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-9">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">news & blog</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Our Latest</span> Insights And Updates</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-3">
-                    <!-- Section Button Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default">view all blog</a>
-                    </div>
-                    <!-- Section Button End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Blog Item Start -->
-                    <div class="blog-item wow fadeInUp">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image" data-cursor-text="View">
-                            <figure>
-                                <a href="#" class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/post-1.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- post Item Content Start -->
-                        <div class="post-item-content">
-                            <!-- post Item Body Start -->
-                            <div class="post-item-body">
-                                <h2><a href="#">10 essential benefits of regular physiotherapy</a></h2>
-                            </div>
-                            <!-- Post Item Body End-->
-
-                            <!-- Post Item Footer Start-->
-                            <div class="post-item-footer">
-                                <a href="#" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Post Item Footer End-->
-                        </div>
-                        <!-- post Item Content End -->
-                    </div>
-                    <!-- Blog Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Blog Item Start -->
-                    <div class="blog-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image" data-cursor-text="View">
-                            <figure>
-                                <a href="#" class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/post-2.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- post Item Content Start -->
-                        <div class="post-item-content">
-                            <!-- post Item Body Start -->
-                            <div class="post-item-body">
-                                <h2><a href="#">How to choose the right physiotherapist for you</a></h2>
-                            </div>
-                            <!-- Post Item Body End-->
-
-                            <!-- Post Item Footer Start-->
-                            <div class="post-item-footer">
-                                <a href="#" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Post Item Footer End-->
-                        </div>
-                        <!-- post Item Content End -->
-                    </div>
-                    <!-- Blog Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Blog Item Start -->
-                    <div class="blog-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image" data-cursor-text="View">
-                            <figure>
-                                <a href="#" class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/post-3.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- post Item Content Start -->
-                        <div class="post-item-content">
-                            <!-- post Item Body Start -->
-                            <div class="post-item-body">
-                                <h2><a href="#">Importance of correct posture and how to improve it</a></h2>
-                            </div>
-                            <!-- Post Item Body End-->
-
-                            <!-- Post Item Footer Start-->
-                            <div class="post-item-footer">
-                                <a href="#" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Post Item Footer End-->
-                        </div>
-                        <!-- post Item Content End -->
-                    </div>
-                    <!-- Blog Item End -->
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- Our Blog End -->
+    <!-- Client Testimonial End -->
+
+
 
     <!-- Our Scrolling Ticker Section Start -->
     <div class="our-scrolling-ticker">
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?>
+</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
             </div>
 
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
             </div>
         </div>
     </div>
-	<!-- Scrolling Ticker Section End -->  
+    <!-- Scrolling Ticker Section End -->
 
     <!-- Footer Start -->
-     <footer class="main-footer">
+    <footer class="main-footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -1120,15 +924,15 @@ include('./server/connection.php')
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                                                
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         <!-- Footer Social Links End -->
-                        
+
                     </div>
                     <!-- About Footer End -->
                 </div>
-                
+
                 <div class="col-lg-3 col-md-4">
                     <!-- About Links Start -->
                     <div class="about-working-hour">
@@ -1168,7 +972,7 @@ include('./server/connection.php')
                                 </div>
                                 <div class="footer-info-box-content">
                                     <p>(+0) 789 3456 012</p>
-                                </div>                                
+                                </div>
                             </div>
                             <!-- Footer Info Box End -->
 
@@ -1189,8 +993,8 @@ include('./server/connection.php')
                                     <img src="<?php echo $domain ?>assets/images/icon-location.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p><?php  echo $siteaddress ?></p>
-                                </div>                                
+                                    <p><?php echo $siteaddress ?></p>
+                                </div>
                             </div>
                             <!-- Footer Info Box End -->
                         </div>
@@ -1226,9 +1030,9 @@ include('./server/connection.php')
             </div>
             <!-- Footer Copyright Section End -->
         </div>
-     </footer>
+    </footer>
     <!-- Footer End -->
-    
+
     <!-- Jquery Library File -->
     <script src="<?php echo $domain ?>assets/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -1260,6 +1064,7 @@ include('./server/connection.php')
     <script src="<?php echo $domain ?>assets/js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="<?php echo $domain ?>assets/js/function.js"></script>
-	<script src="../../assets/<?php echo $domain ?>assets/js/theme-panel.js"></script>
+    <script src="../../assets/<?php echo $domain ?>assets/js/theme-panel.js"></script>
 </body>
+
 </html>
