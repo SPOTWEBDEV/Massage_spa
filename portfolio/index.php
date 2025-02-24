@@ -80,7 +80,7 @@ include('../server/connection.php')
                     <!-- team member image start -->
                     <div class="team-member-image">
                         <figure class="image-anime">
-                            <img src="<?php echo $domain ?>assets/images/me/1.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/me/2.jpg" alt="">
                         </figure>
                     </div>
                     <!-- team member image end -->
@@ -99,7 +99,7 @@ include('../server/connection.php')
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
                                 <li><span>Position</span>Massage Therapist</li>
-                                <li><span>Experience</span>06 Years</li>
+                                <li><span>Experience</span>6 Years</li>
                                 <li><span>Email</span>contact@<?php echo $siteemail ?></li>
                             </ul>
                         </div>

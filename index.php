@@ -72,7 +72,7 @@
 
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                            <a href="#" class="btn-default">explore services</a>
+                            <a href="#" class="btn-default">explore</a>
                             <a href="#" class="btn-default btn-highlighted">book appointment</a>
                         </div>
                         <!-- Hero Content Body End -->
@@ -326,7 +326,7 @@
                 <div class="col-lg-5">
                     <!-- Section Button Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default">View All Services</a>
+                        <!-- <a href="#" class="btn-default">View All Services</a> -->
                     </div>
                     <!-- Section Button End -->
                 </div>
@@ -602,7 +602,7 @@
                                         </div>
 
                                         <div class="solution-counter-content">
-                                            <h3><span class="counter">1000</span>+</h3>
+                                            <h3><span class="counter">1300</span>+</h3>
                                             <p>Happy Clients Served</p>
                                         </div>
                                     </div>
