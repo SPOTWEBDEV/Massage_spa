@@ -351,7 +351,7 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-                            <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                            <!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt=""> -->
                             </a>
                         </div>
                         <!-- Service Footer End -->
@@ -377,8 +377,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-                            <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
-                            </a>
+<!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                          </a> -->
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -403,8 +403,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-                            <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
-                            </a>
+                            <!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                            </a> -->
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -429,8 +429,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-                            <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
-                            </a>
+                            <!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                            </a> -->
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -455,8 +455,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-                            <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
-                            </a>
+                            <!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                            </a> -->
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -481,8 +481,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-                            <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
-                            </a>
+                            <!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                            </a> -->
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -507,8 +507,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-cta-btn">
-                            <a href="#" class="btn-default">Book Now</a>
-                        </div>
+                            <!-- <a href="#" class="btn-default">Book Now</a>
+                        </div> -->
                         <!-- Service Footer End -->
                     </div>
                     <!-- Service Item End -->
