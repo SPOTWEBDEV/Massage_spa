@@ -89,11 +89,11 @@ include('../server/connection.php')
                     <!-- team member details start -->
                     <div class="team-member-details">
                         <div class="member-detail-header">
-                            <h2 class="text-anime-style-2">Dr. Emily Johnson</h2>
+                            <h2 class="text-anime-style-2">Dr. Susan Obi</h2>
                             <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. Emily Johnson specializes in various massage techniques, including deep tissue, Swedish, and hot stone massage. She customizes each session to meet your specific needs, promoting relaxation, pain relief, and improved mobility.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. susan Obi specializes in various massage techniques, including deep tissue, Swedish, and hot stone massage. She customizes each session to meet your specific needs, promoting relaxation, pain relief, and improved mobility.</p>
                         </div>
 
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
@@ -132,8 +132,21 @@ include('../server/connection.php')
                             <h2 class="wow fadeInUp">personal info</h2>
                         </div>
                         <div class="member-info-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.5s">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s"> <h4>Certificate/Education</h4>
+
+</p>
+<p class="wow fadeInUp" data-wow-delay="0.25s"> Ms. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment.
+</p>
+<p class="wow fadeInUp" data-wow-delay="0.25s"> She is an experienced specialist who has always focused on health and wellness, which led to her pursuing a career.
+</p>
+<p class="wow fadeInUp" data-wow-delay="0.25s"> A graduate with Masters and a bachelors  in health soft tissue. Her extensive knowledge of anatomy and the muscular system combined with her friendly style and communication skills resulted in her client feeling completely relaxed and truly able to experience relief from life aches and pains. 
+</p>
+<p class="wow fadeInUp" data-wow-delay="0.25s"> Her massage therapy techniques are also ideal for fitness enthusiast who include recovery in their exercise regimes
+</p>
+
+
+                            <p class="wow fadeInUp" data-wow-delay="0.5s">Her surprisingly strong touch has earned her nickname of Prof. Her deep tissue massage is excellent while relaxation and sports massage, which includes stretching and range of motion therapy . She understands skincare for body and Facial treatment.
+                            She is so amazing in her work as she loves making her clients feel better and relaxed all the time.</p>
                         </div>
                     </div>
                     <!-- About Member Info End -->
