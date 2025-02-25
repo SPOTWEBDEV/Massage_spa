@@ -100,7 +100,7 @@ include('../server/connection.php')
                             <ul>
                                 <li><span>Position</span>Massage Therapist</li>
                                 <li><span>Experience</span>6 Years</li>
-                                <li><span>Email</span>contact@<?php echo $siteemail ?></li>
+                                <li><span>Email</span><?php echo $siteemail ?></li>
                             </ul>
                         </div>
 
