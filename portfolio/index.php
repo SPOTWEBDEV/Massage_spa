@@ -62,7 +62,7 @@ include('../server/connection.php')
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Emily Brown</h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Susan Obi</h1>
 
                     </div>
                     <!-- Page Header Box End -->
@@ -93,7 +93,7 @@ include('../server/connection.php')
                             <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. susan Obi specializes in various massage techniques, including deep tissue, Swedish, and hot stone massage. She customizes each session to meet your specific needs, promoting relaxation, pain relief, and improved mobility.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment. She is an experienced specialist who has always focused on health and wellness, which led to her pursuing career</p>
                         </div>
 
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
@@ -135,10 +135,10 @@ include('../server/connection.php')
                             <p class="wow fadeInUp" data-wow-delay="0.25s"> <h4>Certificate/Education</h4>
 
 </p>
-<p class="wow fadeInUp" data-wow-delay="0.25s"> Ms. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment.
-</p>
-<p class="wow fadeInUp" data-wow-delay="0.25s"> She is an experienced specialist who has always focused on health and wellness, which led to her pursuing a career.
-</p>
+<!-- <p class="wow fadeInUp" data-wow-delay="0.25s"> Ms. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment.
+</p> -->
+<!-- <p class="wow fadeInUp" data-wow-delay="0.25s"> She is an experienced specialist who has always focused on health and wellness, which led to her pursuing a career.
+</p> -->
 <p class="wow fadeInUp" data-wow-delay="0.25s"> A graduate with Masters and a bachelors  in health soft tissue. Her extensive knowledge of anatomy and the muscular system combined with her friendly style and communication skills resulted in her client feeling completely relaxed and truly able to experience relief from life aches and pains. 
 </p>
 <p class="wow fadeInUp" data-wow-delay="0.25s"> Her massage therapy techniques are also ideal for fitness enthusiast who include recovery in their exercise regimes
