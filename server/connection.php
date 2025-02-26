@@ -56,7 +56,7 @@ $sitename = " Body And Soul Relax";
 $siteemail = "support@bodyandsoulrelax.com";
 $emailpassword  = "support@bodyandsoulrelax.com";
 $host = 'mail.bodyandsoulrelax.com';
-$sitephone  = "07443961597";
+$sitephone  = "+234 0744 3961 597";
 $siteaddress  = "At Caversham Houses, 18 kingston Gardens Beddington Surrey Cro 4tx";
 
 

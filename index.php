@@ -64,16 +64,16 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">welcome to physiocare</h3>
-                            <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Destination</span> For Relief & Wellness</h1>
+                            <h3 class="wow fadeInUp">welcome to <?php echo $sitename  ?></h3>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Holistic Treatment</span></h1>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the Ipsum less normal distribution of letters.</p>
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                            <a href="#" class="btn-default">explore</a>
-                            <a href="#" class="btn-default btn-highlighted">book appointment</a>
+                            <a href="<?php echo $domain ?>about/" class="btn-default">explore</a>
+                            <a href="<?php echo $domain ?>booking/" class="btn-default btn-highlighted">book appointment</a>
                         </div>
                         <!-- Hero Content Body End -->
                     </div>
@@ -206,7 +206,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-1.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/13.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -214,7 +214,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-2.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/14.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -222,7 +222,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-3.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/15.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -230,7 +230,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-4.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/16.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -238,7 +238,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-5.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/17.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -246,7 +246,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-6.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/18.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -256,7 +256,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-1.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/19.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -264,7 +264,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-2.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/20.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -272,7 +272,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-3.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/7.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -280,7 +280,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-4.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/12.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -288,7 +288,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-5.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/10.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -296,7 +296,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img src="<?php echo $domain ?>assets/images/gallery-6.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/9.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -507,7 +507,7 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-cta-btn">
-                            <a href="#" class="btn-default">Book Now</a>
+                            <a href="<?php echo $domain ?>booking/" class="btn-default">Book Now</a>
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -528,13 +528,13 @@
                     <div class="solution-plan-image">
                         <div class="solution-plan-img-1">
                             <figure class="image-anime reveal">
-                                <img src="<?php echo $domain ?>assets/images/solution-plan-img-1.jpg" alt="">
+                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/17.jpg" alt="">
                             </figure>
                         </div>
 
                         <div class="solution-plan-img-2">
                             <figure class="image-anime reveal">
-                                <img src="<?php echo $domain ?>assets/images/solution-plan-img-2.jpg" alt="">
+                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/19.jpg" alt="">
                             </figure>
                         </div>
                     </div>

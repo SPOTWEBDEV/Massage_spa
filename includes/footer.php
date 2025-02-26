@@ -45,11 +45,11 @@
                 <div class="col-lg-3 col-md-4">
                     <!-- About Links Start -->
                     <div class="about-service-list">
-                        <h3>more services</h3>
+                        <h3>more pages</h3>
                         <ul>
-                            <li><a href="#">manual therapy</a></li>
-                            <li><a href="#">chronic pain</a></li>
-                            <li><a href="#">hand therapy</a></li>
+                            <li><a href="<?php echo $domain ?>about/">about Us</a></li>
+                            <li><a href="<?php echo $domain ?>portfolio/">Portfolio</a></li>
+                            <li><a href="<?php echo $domain ?>ontact Us/">Contant Us</a></li>
                         </ul>
                     </div>
                     <!-- About Links End -->
@@ -113,11 +113,9 @@
 
                     <div class="col-lg-6 col-md-6">
                         <!-- Footer Social Link Start -->
-                        <div class="footer-links">
+                        <div  class="footer-links">
                             <ul>
-                                <li><a href="<?php echo $domain ?>about/">about us</a></li>
-                                <li><a href="<?php echo $domain ?>portfolio/">portfolio</a></li>
-                                <li><a href="<?php echo $domain ?>contact/">contact us</a></li>
+                            <a style="color:white" href="https://mywebsite-firstclass.vercel.app/" >Develop By SPOTWEBDEV COMPANY</a>
                             </ul>
                         </div>
                         <!-- Footer Social Link End -->
