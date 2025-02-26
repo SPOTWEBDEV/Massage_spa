@@ -507,8 +507,8 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-cta-btn">
-                            <!-- <a href="#" class="btn-default">Book Now</a>
-                        </div> -->
+                            <a href="#" class="btn-default">Book Now</a>
+                        </div>
                         <!-- Service Footer End -->
                     </div>
                     <!-- Service Item End -->
@@ -888,14 +888,14 @@
 </span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
             </div>
 
             <div class="scrolling-content">
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working hours: Mon to Fri : 10:00 To 6:00 </span>
             </div>
         </div>
     </div>
