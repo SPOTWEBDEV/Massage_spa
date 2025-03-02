@@ -19,7 +19,7 @@
     <!-- Page Title -->
     <title><?php echo $sitename ?></title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/work/12.jpg">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -48,7 +48,7 @@
     <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
-            <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
+            <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/work/12.jpg" alt=""></div>
         </div>
     </div>
     <!-- Preloader End -->
@@ -910,7 +910,7 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="<?php echo $domain ?>assets/images/footer-logo.svg" alt="">
+                            <img src="<?php echo $domain ?>assests/images/work/12.jpg" alt="">
                         </div>
                         <!-- Footer Logo End -->
 
