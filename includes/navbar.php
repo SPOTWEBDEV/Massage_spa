@@ -38,7 +38,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="index-2.html">
-						<img src="<?php echo $domain ?>assets/images/logo.svg" alt="Logo">
+						<img src="<?php echo $domain ?>assets/images/work/21.jpg" alt="Logo">
 					</a>
 					<!-- Logo End -->
 
