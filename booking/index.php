@@ -49,12 +49,12 @@ include('../server/connection.php')
 
 
     <!-- Preloader Start -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
             <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader End -->
 
     <?php include('../includes/navbar.php') ?>
