@@ -46,10 +46,7 @@
 
     <!-- Preloader Start -->
     <div class="preloader">
-        <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/work/12.jpg" alt=""></div>
-        </div>
+       
     </div>
     <!-- Preloader End -->
 
