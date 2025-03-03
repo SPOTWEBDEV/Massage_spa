@@ -949,11 +949,11 @@
                 <div class="col-lg-3 col-md-4">
                     <!-- About Links Start -->
                     <div class="about-service-list">
-                        <h3>more services</h3>
+                        <h3> Pages</h3>
                         <ul>
-                            <li><a href="#">manual therapy</a></li>
-                            <li><a href="#">chronic pain</a></li>
-                            <li><a href="#">hand therapy</a></li>
+                            <li><a href="about">About Us</a></li>
+                            <li><a href="portfolio">portfolio</a></li>
+                            <li><a href="contact/index.php">Contact Us</a></li>
                         </ul>
                     </div>
                     <!-- About Links End -->
@@ -1010,7 +1010,7 @@
                     <div class="col-lg-6 col-md-6">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright 2024<?php echo $sitename ?> All Rights Reserved.</p>
+                            <p>Copyright 2025<?php echo $sitename ?> All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>
