@@ -177,7 +177,7 @@ include('../server/connection.php')
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>									
+                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt.</p>									
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
@@ -207,7 +207,7 @@ include('../server/connection.php')
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>	
+                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt.</p>	
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
@@ -237,7 +237,7 @@ include('../server/connection.php')
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>	
+                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt.</p>	
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
@@ -267,7 +267,7 @@ include('../server/connection.php')
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt.</p>	
+                                                <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt.</p>	
                                             </div>
                                         </div>
                                         <div class="testimonial-body">

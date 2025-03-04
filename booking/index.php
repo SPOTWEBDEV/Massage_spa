@@ -1,6 +1,11 @@
 <?php
 
-include('../server/connection.php')
+include('../server/connection.php');
+
+
+if(isset($_POST['btn'])){
+    // echo "alert('welcome')";
+}
 
 ?>
 
@@ -152,7 +157,7 @@ include('../server/connection.php')
 
                                 <!-- Submit Button -->
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn-default">Book Now</button>
+                                    <button type="submit" name="btn" class="btn-default">Book Now</button>
                                     <div id="msgSubmit" class="h3 hidden"></div>
                                 </div>
                             </div>

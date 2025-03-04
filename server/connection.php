@@ -36,17 +36,17 @@ if ($request == 'https') {
 }
 elseif ($request == 'http') {
     $domain = "http://localhost/Massage_spa/";
-    // define("USER", "root");
-    // define("PASSWORD", "");
-    // define("DATABASE", "booking");
+    define("USER", "root");
+    define("PASSWORD", "");
+    define("DATABASE", "booking");
 }
 
 // // Database connection
-// $connection = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
+$connection = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 
-// if (!$connection) {
-//     die("Connection failed: " . mysqli_connect_error());
-// }
+if (!$connection) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
 // // Site configurations
 $sitename = " Body And Soul Relax";

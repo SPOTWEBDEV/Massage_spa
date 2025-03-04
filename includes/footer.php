@@ -12,7 +12,7 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy.</p>
+                            <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist.</p>
                         </div>
                         <!-- Footer Social Links Start -->
                         <div class="footer-social-links">

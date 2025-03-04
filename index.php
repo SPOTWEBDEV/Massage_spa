@@ -116,7 +116,7 @@
                         <!-- Home Contact Content Start -->
                         <div class="home-contact-content">
                             <h3>emergency service</h3>
-                            <p>Our emergency physiotherapy services are designed to address</p>
+                            <p>Our emergency professionals therapist services are designed to address</p>
                         </div>
                         <!-- Home Contact Content End -->
                     </div>
@@ -179,8 +179,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">We Are The Best For <span>Physiotherapy</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">We Are The Best For <span>professionals therapist</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible.</p>
                         </div>
                         <!-- Section Title End -->
 
