@@ -6,13 +6,15 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="<?php echo $domain ?>assets/images/footer-logo.svg" alt="">
+                            <img src="<?php echo $domain ?><assets>
+                            <images>
+                            <work>21.jpg" alt="">
                         </div>
                         <!-- Footer Logo End -->
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy.</p>
+                            <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist.</p>
                         </div>
                         <!-- Footer Social Links Start -->
                         <div class="footer-social-links">
@@ -45,7 +47,7 @@
                 <div class="col-lg-3 col-md-4">
                     <!-- About Links Start -->
                     <div class="about-service-list">
-                        <h3>more pages</h3>
+                        <h3>Pages</h3>
                         <ul>
                             <li><a href="<?php echo $domain ?>about/">about Us</a></li>
                             <li><a href="<?php echo $domain ?>portfolio/">Portfolio</a></li>
@@ -67,7 +69,7 @@
                                     <img src="<?php echo $domain ?>assets/images/icon-phone.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p>(+0) 789 3456 012</p>
+                                    <p>+234 744 3961 597</p>
                                 </div>                                
                             </div>
                             <!-- Footer Info Box End -->
@@ -78,7 +80,7 @@
                                     <img src="<?php echo $domain ?>assets/images/icon-mail.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p>domain@gmail.com</p>
+                                    <p>circlesmith880@gmail.com</p>
                                 </div>
                             </div>
                             <!-- Footer Info Box End -->
@@ -106,7 +108,7 @@
                     <div class="col-lg-6 col-md-6">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright 2024<?php echo $sitename ?> All Rights Reserved.</p>
+                            <p>Copyright 2025<?php echo $sitename ?> All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>

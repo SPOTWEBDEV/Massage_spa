@@ -19,7 +19,7 @@
     <!-- Page Title -->
     <title><?php echo $sitename ?></title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/work/12.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/work/21.jpg">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -46,10 +46,7 @@
 
     <!-- Preloader Start -->
     <div class="preloader">
-        <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/work/12.jpg" alt=""></div>
-        </div>
+       
     </div>
     <!-- Preloader End -->
 
@@ -73,7 +70,7 @@
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                             <a href="<?php echo $domain ?>about/" class="btn-default">explore</a>
-                            <a href="<?php echo $domain ?>booking/" class="btn-default btn-highlighted">book appointment</a>
+                            <a href="<?php echo $domain ?>appointment/" class="btn-default btn-highlighted">book appointment</a>
                         </div>
                         <!-- Hero Content Body End -->
                     </div>
@@ -119,7 +116,7 @@
                         <!-- Home Contact Content Start -->
                         <div class="home-contact-content">
                             <h3>emergency service</h3>
-                            <p>Our emergency physiotherapy services are designed to address</p>
+                            <p>Our emergency professionals therapist services are designed to address</p>
                         </div>
                         <!-- Home Contact Content End -->
                     </div>
@@ -158,7 +155,7 @@
                     <div class="about-us-image">
                         <div class="about-img">
                             <figure class="reveal image-anime">
-                                <img src="<?php echo $domain ?>assets/images/about-img.jpg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/work/24.jpg" alt="">
                             </figure>
 
                             <!-- Company Experience Box Start -->
@@ -182,8 +179,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">We Are The Best For <span>Physiotherapy</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">We Are The Best For <span>professionals therapist</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -214,7 +211,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/14.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/26.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -222,7 +219,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/15.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/22.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -230,7 +227,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/16.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/24.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -238,7 +235,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/17.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/27.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -246,7 +243,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/18.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/28.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -256,7 +253,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/19.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/29.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -272,7 +269,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/7.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/23.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -280,7 +277,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/12.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/25.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -288,7 +285,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/10.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/30.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -296,7 +293,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/9.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/17.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -534,7 +531,7 @@
 
                         <div class="solution-plan-img-2">
                             <figure class="image-anime reveal">
-                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/19.jpg" alt="">
+                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/31.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -902,135 +899,7 @@
     <!-- Scrolling Ticker Section End -->
 
     <!-- Footer Start -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <!-- About Footer Start -->
-                    <div class="about-footer">
-                        <!-- Footer Logo Start -->
-                        <div class="footer-logo">
-                            <img src="<?php echo $domain ?>assests/images/work/12.jpg" alt="">
-                        </div>
-                        <!-- Footer Logo End -->
-
-                        <!-- About Footer Content Start -->
-                        <div class="about-footer-content">
-                            <p>We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy.</p>
-                        </div>
-                        <!-- Footer Social Links Start -->
-                        <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Social Links End -->
-
-                    </div>
-                    <!-- About Footer End -->
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <!-- About Links Start -->
-                    <div class="about-working-hour">
-                        <h3>working hours</h3>
-                        <ul>
-                            <li>mon to fri : 10:00 to 6:00</li>
-                            <li>sat : 10:00AM to 3:00PM</li>
-                            <li>sun : closed</li>
-                        </ul>
-                    </div>
-                    <!-- About Links End -->
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <!-- About Links Start -->
-                    <div class="about-service-list">
-                        <h3>more services</h3>
-                        <ul>
-                            <li><a href="#">manual therapy</a></li>
-                            <li><a href="#">chronic pain</a></li>
-                            <li><a href="#">hand therapy</a></li>
-                        </ul>
-                    </div>
-                    <!-- About Links End -->
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <!-- About Links Start -->
-                    <div class="footer-contact">
-                        <h3>contact</h3>
-                        <!-- Footer Contact Details Start -->
-                        <div class="footer-contact-details">
-                            <!-- Footer Info Box Start -->
-                            <div class="footer-info-box">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-phone.svg" alt="">
-                                </div>
-                                <div class="footer-info-box-content">
-                                    <p>(+0) 789 3456 012</p>
-                                </div>
-                            </div>
-                            <!-- Footer Info Box End -->
-
-                            <!-- Footer Info Box Start -->
-                            <div class="footer-info-box">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-mail.svg" alt="">
-                                </div>
-                                <div class="footer-info-box-content">
-                                    <p>domain@gmail.com</p>
-                                </div>
-                            </div>
-                            <!-- Footer Info Box End -->
-
-                            <!-- Footer Info Box Start -->
-                            <div class="footer-info-box">
-                                <div class="icon-box">
-                                    <img src="<?php echo $domain ?>assets/images/icon-location.svg" alt="">
-                                </div>
-                                <div class="footer-info-box-content">
-                                    <p><?php echo $siteaddress ?></p>
-                                </div>
-                            </div>
-                            <!-- Footer Info Box End -->
-                        </div>
-                        <!-- Footer Contact Details End -->
-                    </div>
-                    <!-- About Links End -->
-                </div>
-            </div>
-
-            <!-- Footer Copyright Section Start -->
-            <div class="footer-copyright">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6">
-                        <!-- Footer Copyright Start -->
-                        <div class="footer-copyright-text">
-                            <p>Copyright 2024<?php echo $sitename ?> All Rights Reserved.</p>
-                        </div>
-                        <!-- Footer Copyright End -->
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <!-- Footer Social Link Start -->
-                        <div class="footer-links">
-                            <ul>
-                                <li><a href="#">about us</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">contact us</a></li>
-                            </ul>
-                        </div>
-                        <!-- Footer Social Link End -->
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Copyright Section End -->
-        </div>
-    </footer>
+      <?php  include('./includes/footer.php')   ?>
     <!-- Footer End -->
 
     <!-- Jquery Library File -->
