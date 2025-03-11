@@ -364,16 +364,16 @@ include('../server/connection.php')
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :+234 744 3961 597</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries :circlesmith880@gmail.com </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment:+234 781 0556 515</span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
             </div>
 
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :+234 744 3961 597</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries :circlesmith880@gmail.com</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: +234 781 0556 515</span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
             </div>
         </div>

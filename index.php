@@ -1,6 +1,6 @@
 <?php
 
-    include './server/connection.php';
+include './server/connection.php';
 
 ?>
 
@@ -40,20 +40,34 @@
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/mousecursor.css">
     <!-- Main Custom Css -->
     <link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
+
+
+
+    <!-- <style>
+        .hero.bg-image.parallaxie {
+            background-image: ('assets/work/16.jpg');
+            /* background-size: cover; */
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+        }
+    </style> -->
+    <!-- class="hero bg-image parallaxie" style="background-image: url('assets/work/1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;" -->
 </head>
 
 <body>
 
     <!-- Preloader Start -->
     <div class="preloader">
-       
+
     </div>
     <!-- Preloader End -->
 
-    <?php include './includes/navbar.php'?>
+    <?php include './includes/navbar.php' ?>
 
     <!-- Hero Section Start -->
-    <div class="hero bg-image parallaxie">
+    <div class="hero bg-image parallaxie" >
+
+        
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -63,7 +77,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to <?php echo $sitename  ?></h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Holistic Treatment</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the Ipsum less normal distribution of letters.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">We offer range of treatments to help you active optimal physical, emotional and sporitual well-being. Holistic massage swedish, Deep tissue, Refexology(foot) massage, Physio streaaching</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -203,7 +217,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/13.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/7.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -211,7 +225,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/26.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/1.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -219,7 +233,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/22.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/2.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -227,7 +241,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/24.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/3.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -235,7 +249,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/27.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/4.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -261,7 +275,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/20.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/5.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -293,7 +307,7 @@
                             <!-- Image Item Start -->
                             <div class="gallery-image">
                                 <figure class="image-anime">
-                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/17.jpg" alt="">
+                                    <img style="height:400px" src="<?php echo $domain ?>assets/images/work/6.jpg" alt="">
                                 </figure>
                             </div>
                             <!-- Image Item End -->
@@ -374,7 +388,7 @@
 
                         <!-- Service Footer Start -->
                         <div class="service-footer">
-<!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
+                            <!-- <a href="#" class="service-btn"><img src="<?php echo $domain ?>assets/images/arrow-white.svg" alt="">
                           </a> -->
                         </div>
                         <!-- Service Footer End -->
@@ -525,13 +539,13 @@
                     <div class="solution-plan-image">
                         <div class="solution-plan-img-1">
                             <figure class="image-anime reveal">
-                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/17.jpg" alt="">
+                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/8.jpg" alt="">
                             </figure>
                         </div>
 
                         <div class="solution-plan-img-2">
                             <figure class="image-anime reveal">
-                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/31.jpg" alt="">
+                                <img style="height:400px" src="<?php echo $domain ?>assets/images/work/9.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -760,111 +774,111 @@
                     <!-- Testimonial Slider Start -->
 
                     <div class="testimonial-slider">
-    <div class="swiper">
-        <div class="swiper-wrapper" data-cursor-text="Drag">
-            <!-- Testimonial Slide Start -->
-            <div class="swiper-slide">
-                <div class="testimonial-item">
-                    <div class="testimonial-header">
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"I’ve never felt more relaxed! The deep tissue massage helped release so much tension in my muscles. Highly recommend                                                                                                                                                       <?php echo $sitename ?> for an unforgettable experience!"</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-body">
-                        <div class="author-content">
-                            <h3>Johan Duo</h3>
-                            <p>Professional Athlete</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial Slide End -->
+                        <div class="swiper">
+                            <div class="swiper-wrapper" data-cursor-text="Drag">
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"I’ve never felt more relaxed! The deep tissue massage helped release so much tension in my muscles. Highly recommend <?php echo $sitename ?> for an unforgettable experience!"</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Johan Duo</h3>
+                                                <p>Professional Athlete</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
 
-            <!-- Testimonial Slide Start -->
-            <div class="swiper-slide">
-                <div class="testimonial-item">
-                    <div class="testimonial-header">
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"The hot stone massage at                                                         <?php echo $sitename ?> was exactly what I needed to relieve my chronic back pain. The staff is so professional and the atmosphere is so soothing!"</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-body">
-                        <div class="author-content">
-                            <h3>Jane Smith</h3>
-                            <p>Retired Teacher</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial Slide End -->
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"The hot stone massage at <?php echo $sitename ?> was exactly what I needed to relieve my chronic back pain. The staff is so professional and the atmosphere is so soothing!"</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Jane Smith</h3>
+                                                <p>Retired Teacher</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
 
-            <!-- Testimonial Slide Start -->
-            <div class="swiper-slide">
-                <div class="testimonial-item">
-                    <div class="testimonial-header">
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"I had an amazing experience at                                                               <?php echo $sitename ?>! The Swedish massage was so relaxing, and I felt completely rejuvenated after the session. Highly recommend it!"</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-body">
-                        <div class="author-content">
-                            <h3>Robert Lee</h3>
-                            <p>Construction Worker</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial Slide End -->
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"I had an amazing experience at <?php echo $sitename ?>! The Swedish massage was so relaxing, and I felt completely rejuvenated after the session. Highly recommend it!"</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Robert Lee</h3>
+                                                <p>Construction Worker</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
 
-            <!-- Testimonial Slide Start -->
-            <div class="swiper-slide">
-                <div class="testimonial-item">
-                    <div class="testimonial-header">
-                        <div class="testimonial-rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <p>"The massage at                                               <?php echo $sitename ?> helped me recover from my marathon training. The therapists really understand the importance of muscle recovery!"</p>
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"The massage at <?php echo $sitename ?> helped me recover from my marathon training. The therapists really understand the importance of muscle recovery!"</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Banson Doe</h3>
+                                                <p>Marathon Runner</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
+                            </div>
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
-                    <div class="testimonial-body">
-                        <div class="author-content">
-                            <h3>Banson Doe</h3>
-                            <p>Marathon Runner</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial Slide End -->
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-</div>
 
 
                     <!-- Testimonial Slider End -->
@@ -881,8 +895,7 @@
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?>
-</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
@@ -899,7 +912,7 @@
     <!-- Scrolling Ticker Section End -->
 
     <!-- Footer Start -->
-      <?php  include('./includes/footer.php')   ?>
+    <?php include('./includes/footer.php')   ?>
     <!-- Footer End -->
 
     <!-- Jquery Library File -->
