@@ -103,11 +103,11 @@ if(isset($_POST['btn'])){
                             <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Get</span> In Touch With Us</h2>
                         </div>
 
-                        <form method="POST">
+                        <form method="POST" id="appointmentForm">
                             <div class="row">
                                 <!-- Full Name -->
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="fullname" class="form-control" id="fullname" placeholder="Enter Full Name" required="">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter Full Name" required="">
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -151,7 +151,7 @@ if(isset($_POST['btn'])){
 
                                 <!-- Message -->
                                 <div class="form-group col-md-12 mb-5">
-                                    <textarea name="msg" class="form-control" id="msg" rows="5" placeholder="Any Special Request?" required=""></textarea>
+                                    <textarea name="msg" class="form-control" id="message" rows="5" placeholder="Any Special Request?" required=""></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -263,7 +263,7 @@ if(isset($_POST['btn'])){
     <script src="<?php echo $domain ?>assets/js/wow.js"></script>
     <!-- Main Custom js file -->
     <script src="<?php echo $domain ?>assets/js/function.js"></script>
-    <script src="../../assets/<?php echo $domain ?>assets/js/theme-panel.js"></script>
+    <script src="<?php echo $domain ?>assets/js/theme-panel.js"></script>
 </body>
 
 </html>

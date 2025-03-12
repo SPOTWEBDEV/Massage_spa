@@ -1,42 +1,42 @@
 
 (function ($) {
-    "use strict";
-	
-	var $window = $(window); 
-	var $body = $('body'); 
+	"use strict";
+
+	var $window = $(window);
+	var $body = $('body');
 
 	/* Preloader Effect */
-	$window.on('load', function(){
+	$window.on('load', function () {
 		$(".preloader").fadeOut(600);
 	});
 
-	/* Sticky Header */	
-	if($('.active-sticky-header').length){
-		$window.on('resize', function(){
+	/* Sticky Header */
+	if ($('.active-sticky-header').length) {
+		$window.on('resize', function () {
 			setHeaderHeight();
 		});
 
-		function setHeaderHeight(){
-	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight());
-		}	
-	
-		$(window).on("scroll", function() {
+		function setHeaderHeight() {
+			$("header.main-header").css("height", $('header .header-sticky').outerHeight());
+		}
+
+		$(window).on("scroll", function () {
 			var fromTop = $(window).scrollTop();
 			setHeaderHeight();
 			var headerHeight = $('header .header-sticky').outerHeight()
 			$("header .header-sticky").toggleClass("hide", (fromTop > headerHeight + 100));
 			$("header .header-sticky").toggleClass("active", (fromTop > 600));
 		});
-	}	
-	
+	}
+
 	/* Slick Menu JS */
 	$('#menu').slicknav({
-		label : '',
-		prependTo : '.responsive-menu'
+		label: '',
+		prependTo: '.responsive-menu'
 	});
 
-	if($("a[href='#top']").length){
-		$("a[href='#top']").click(function() {
+	if ($("a[href='#top']").length) {
+		$("a[href='#top']").click(function () {
 			$("html, body").animate({ scrollTop: 0 }, "slow");
 			return false;
 		});
@@ -44,7 +44,7 @@
 
 	/* Hero Slider Layout JS */
 	const hero_slider_layout = new Swiper('.hero-slider-layout .swiper', {
-		slidesPerView : 1,
+		slidesPerView: 1,
 		speed: 1000,
 		spaceBetween: 0,
 		loop: true,
@@ -60,7 +60,7 @@
 	/* testimonial Slider JS */
 	if ($('.testimonial-slider').length) {
 		const testimonial_slider = new Swiper('.testimonial-slider .swiper', {
-			slidesPerView : 1,
+			slidesPerView: 1,
 			speed: 1000,
 			spaceBetween: 30,
 			loop: true,
@@ -76,11 +76,11 @@
 				clickable: true,
 			},
 			breakpoints: {
-				768:{
-				  	slidesPerView: 2,
+				768: {
+					slidesPerView: 2,
 				},
-				991:{
-				  	slidesPerView: 3,
+				991: {
+					slidesPerView: 3,
 				}
 			}
 		});
@@ -88,13 +88,13 @@
 
 	/* Skill Bar */
 	if ($('.skills-progress-bar').length) {
-		$('.skills-progress-bar').waypoint(function() {
-			$('.skillbar').each(function() {
+		$('.skills-progress-bar').waypoint(function () {
+			$('.skillbar').each(function () {
 				$(this).find('.count-bar').animate({
-				width:$(this).attr('data-percent')
-				},2000);
+					width: $(this).attr('data-percent')
+				}, 2000);
 			});
-		},{
+		}, {
 			offset: '50%'
 		});
 	}
@@ -111,77 +111,77 @@
 
 	/* Image Reveal Animation */
 	if ($('.reveal').length) {
-        gsap.registerPlugin(ScrollTrigger);
-        let revealContainers = document.querySelectorAll(".reveal");
-        revealContainers.forEach((container) => {
-            let image = container.querySelector("img");
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: container,
-                    toggleActions: "play none none none"
-                }
-            });
-            tl.set(container, {
-                autoAlpha: 1
-            });
-            tl.from(container, 1, {
-                xPercent: -100,
-                ease: Power2.out
-            });
-            tl.from(image, 1, {
-                xPercent: 100,
-                scale: 1,
-                delay: -1,
-                ease: Power2.out
-            });
-        });
-    }
+		gsap.registerPlugin(ScrollTrigger);
+		let revealContainers = document.querySelectorAll(".reveal");
+		revealContainers.forEach((container) => {
+			let image = container.querySelector("img");
+			let tl = gsap.timeline({
+				scrollTrigger: {
+					trigger: container,
+					toggleActions: "play none none none"
+				}
+			});
+			tl.set(container, {
+				autoAlpha: 1
+			});
+			tl.from(container, 1, {
+				xPercent: -100,
+				ease: Power2.out
+			});
+			tl.from(image, 1, {
+				xPercent: 100,
+				scale: 1,
+				delay: -1,
+				ease: Power2.out
+			});
+		});
+	}
 
 	/* Text Effect Animation */
 	if ($('.text-anime-style-1').length) {
-		let staggerAmount 	= 0.05,
+		let staggerAmount = 0.05,
 			translateXValue = 0,
-			delayValue 		= 0.5,
-		   animatedTextElements = document.querySelectorAll('.text-anime-style-1');
-		
+			delayValue = 0.5,
+			animatedTextElements = document.querySelectorAll('.text-anime-style-1');
+
 		animatedTextElements.forEach((element) => {
 			let animationSplitText = new SplitText(element, { type: "chars, words" });
-				gsap.from(animationSplitText.words, {
+			gsap.from(animationSplitText.words, {
 				duration: 1,
 				delay: delayValue,
 				x: 20,
 				autoAlpha: 0,
 				stagger: staggerAmount,
 				scrollTrigger: { trigger: element, start: "top 85%" },
-				});
-		});		
+			});
+		});
 	}
-	
-	if ($('.text-anime-style-2').length) {				
-		let	 staggerAmount 		= 0.03,
-			 translateXValue	= 20,
-			 delayValue 		= 0.1,
-			 easeType 			= "power2.out",
-			 animatedTextElements = document.querySelectorAll('.text-anime-style-2');
-		
+
+	if ($('.text-anime-style-2').length) {
+		let staggerAmount = 0.03,
+			translateXValue = 20,
+			delayValue = 0.1,
+			easeType = "power2.out",
+			animatedTextElements = document.querySelectorAll('.text-anime-style-2');
+
 		animatedTextElements.forEach((element) => {
 			let animationSplitText = new SplitText(element, { type: "chars, words" });
-				gsap.from(animationSplitText.chars, {
-					duration: 1,
-					delay: delayValue,
-					x: translateXValue,
-					autoAlpha: 0,
-					stagger: staggerAmount,
-					ease: easeType,
-					scrollTrigger: { trigger: element, start: "top 85%"},
-				});
-		});		
+			gsap.from(animationSplitText.chars, {
+				duration: 1,
+				delay: delayValue,
+				x: translateXValue,
+				autoAlpha: 0,
+				stagger: staggerAmount,
+				ease: easeType,
+				scrollTrigger: { trigger: element, start: "top 85%" },
+			});
+		});
 	}
-	
-	if ($('.text-anime-style-3').length) {		
-		let	animatedTextElements = document.querySelectorAll('.text-anime-style-3');
-		
-		 animatedTextElements.forEach((element) => {
+
+	if ($('.text-anime-style-3').length) {
+		let animatedTextElements = document.querySelectorAll('.text-anime-style-3');
+
+		animatedTextElements.forEach((element) => {
 			//Reset if needed
 			if (element.animation) {
 				element.animation.progress(1).kill();
@@ -200,7 +200,7 @@
 			});
 
 			element.animation = gsap.to(element.split.chars, {
-				scrollTrigger: { trigger: element,	start: "top 90%" },
+				scrollTrigger: { trigger: element, start: "top 90%" },
 				x: "0",
 				y: "0",
 				rotateX: "0",
@@ -209,13 +209,12 @@
 				ease: Back.easeOut,
 				stagger: 0.02,
 			});
-		});		
+		});
 	}
 
 	/* Parallaxie js */
 	var $parallaxie = $('.parallaxie');
-	if($parallaxie.length && ($window.width() > 991))
-	{
+	if ($parallaxie.length && ($window.width() > 991)) {
 		if ($window.width() > 768) {
 			$parallaxie.parallaxie({
 				speed: 0.55,
@@ -224,117 +223,103 @@
 		}
 	}
 
-	/* Contact form validation */
-	var $contactform = $("#contactForm");
-$contactform.validator({ focus: false }).on("submit", function (event) {
-    if (!event.isDefaultPrevented()) {
-        event.preventDefault();
-        submitForm();
-    }
-});
 
-function submitForm() {
-    /* Initiate Variables With Form Content */
-    var fullname = $("#fullname").val();
-    var email = $("#email").val();
-    var phone = $("#phone").val();
-    var subject = $("#subject").val();
-    var message = $("#msg").val();
 
-    $.ajax({
-        type: "POST",
-        url: "form-process.php",
-        data: "fullname=" + fullname + "&name=" + "&email=" + email + "&phone=" + phone + "&subject=" + subject + "&message=" + message,
-        success: function (text) {
-            if (text == "success") {
-                formSuccess();
-            } else {
-                submitMSG(false, text);
-            }
-        }
-    });
-}
 
-function formSuccess() {
-    $contactform[0].reset();
-    // Show success message using SweetAlert
-    Swal.fire({
-        icon: 'success',
-        title: 'Message Sent Successfully!',
-        showConfirmButton: false,
-        timer: 1500
-    });
-}
 
-function submitMSG(valid) {
-    // Show error message using SweetAlert
-    if (valid) {
-        Swal.fire({
-            icon: 'success',
-            title: 'Success',
-            text: 'Message Sent Successfully!',
-            showConfirmButton: false,
-            timer: 1500
-        });
-    } else {
-        Swal.fire({
-            icon: 'error',
-            title: 'Error',
-            text: 'sorry the ',
-            showConfirmButton: true
-        });
-    }
-}
 
 	/* Contact form validation end */
+	var $contactForm = $("#contactForm");
+	$contactForm.validator({ focus: false }).on("submit", function (event) {
+		if (!event.isDefaultPrevented()) {
+			event.preventDefault();
+			submitcontactFormForm();
+		}
+	});
+	function submitcontactFormForm() {
+		console.log('contact')
+		/* Initiate Variables With Form Content*/
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var phone = $("#phone").val();
+		var subject = $("#subject").val();
+		var message = $("#message").val();
+
+		console.log(name, subject, message)
+
+
+		$.ajax({
+			type: "POST",
+			url: "form-process.php",
+			data: "name=" + name + "&email=" + email + "&phone=" + phone + "&subject=" + subject + "&message=" + message,
+			success: function (text) {
+				console.log(text)
+				if (text == "SUCCESS") {
+					Swal.fire({
+						title: "Message Sent!",
+						text: "Your contact message has been sent successfully.",
+						icon: "success"
+					});
+				} else {
+					Swal.fire({
+						title: "Message Failed!",
+						text: "Something went wrong while sending your message. Please try again later.",
+						icon: "error"
+					});
+				}
+
+			}
+		});
+	}
 
 	/* Appointment form validation */
-	var $appointmentForm = $("#appointmentForm");
-	$appointmentForm.validator({focus: false}).on("submit", function (event) {
+	var $appointmentForm = $("#appointmentForm"); 
+	$appointmentForm.validator({ focus: false }).on("submit", function (event) {
 		if (!event.isDefaultPrevented()) {
 			event.preventDefault();
 			submitappointmentForm();
 		}
 	});
 
-	function submitappointmentForm(){
+	function submitappointmentForm() {
+		console.log('booking')
 		/* Initiate Variables With Form Content*/
 		var name = $("#name").val();
 		var email = $("#email").val();
 		var phone = $("#phone").val();
-		var phone = $("#services").val();
+		var services = $("#services").val();
+		var message = $("#message").val();
 		var date = $("#date").val();
+		var amount = $('#amount').val()
 
 		$.ajax({
 			type: "POST",
 			url: "form-appointment.php",
-			data: "name=" + name + "&email=" + email + "&phone=" + phone + "&services=" + services + "&date=" + date,
-			success : function(text){
-				if (text == "success"){
-					appointmentformSuccess();
+			data: "name=" + name + "&email=" + email + "&phone=" + phone + "&services=" + services + "&date=" + date + "&amount=" + amount + "&message=" + message,
+			success: function (text) {
+				console.log(text)
+				if (text == "SUCCESS") {
+					Swal.fire({
+						title: "Booking Successful!",
+						text: "Your appointment has been booked successfully.",
+						icon: "success"
+					});
 				} else {
-					appointmentsubmitMSG(false,text);
+					Swal.fire({
+						title: "Booking Failed!",
+						text: "Something went wrong when booking. Please try again later.",
+						icon: "error"
+					});
+
 				}
 			}
 		});
 	}
 
-	function appointmentformSuccess(){
-		$appointmentForm[0].reset();
-		appointmentsubmitMSG(true, "Message Sent Successfully!")
-	}
 
-	function appointmentsubmitMSG(valid, msg){
-		if(valid){
-			var msgClasses = "h3 text-success";
-		} else {
-			var msgClasses = "h3 text-danger";
-		}
-		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-	}
 	/* Appointment form validation end */
 
-	/* Animated Wow Js */	
+	/* Animated Wow Js */
 	new WOW().init();
 
 	/* Popup Video */
@@ -347,5 +332,5 @@ function submitMSG(valid) {
 			fixedContentPos: true
 		});
 	}
-	
+
 })(jQuery);

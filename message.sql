@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2025 at 11:07 PM
+-- Generation Time: Mar 13, 2025 at 12:13 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -53,8 +53,19 @@ CREATE TABLE `appointments` (
   `phone` varchar(15) NOT NULL,
   `services` varchar(255) NOT NULL,
   `appointment_date` date NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `amount` varchar(255) NOT NULL,
+  `message` varchar(9000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `appointments`
+--
+
+INSERT INTO `appointments` (`id`, `name`, `email`, `phone`, `services`, `appointment_date`, `created_at`, `amount`, `message`) VALUES
+(8, 'Ezea Ugochukwu', 'spotwebdev.com@gmail.com', '08108833188', '', '2025-03-14', '2025-03-12 23:10:43', '$70', ''),
+(9, 'Ezea Ugochukwu', 'spotwebdev.com@gmail.com', '08108833188', '', '2025-03-12', '2025-03-12 23:11:53', '$50', ''),
+(10, 'Ezea Ugochukwu', 'spotwebdev.com@gmail.com', '08108833188', 'b bbbbb', '2025-03-28', '2025-03-12 23:12:35', '$90', '');
 
 -- --------------------------------------------------------
 
@@ -103,21 +114,10 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`id`, `name`, `email`, `phone`, `subject`, `message`) VALUES
-(2, 'repented godswill', 'spotwebdev.com@gmail.com', '07080879957', '', 'i love your group'),
-(3, 'thebest firstclass', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'qwertyuiopzxcvbn'),
-(4, 'thebest firstclass', 'thebest@gmail.com', '07080879957', '23456789', 'sdfgyhjk'),
-(5, 'thebest firstclass', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'wsdfghjkl'),
-(6, 'Footwear', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'ertyuiop[poiuyt'),
-(7, 'Footwear', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'ertyuiop[poiuyt'),
-(8, 'Footwear', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'ertyuiop[poiuyt'),
-(9, 'Footwear', 'spotwebdev.com@gmail.com', '3456789', '23456789', 'dfghjkl;'),
-(10, 'Footwear', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'sdfghjkl'),
-(11, 'Big sweater', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'xfghjkkjhdfghj'),
-(12, 'thebest firstclass', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'sdfghjkllgrfergh'),
-(13, 'thebest firstclass', 'spotwebdev.com@gmail.com', '3456789', '23456789', 'sdfghjk'),
-(14, 'Footwear', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'sdfghjfdsdfg'),
-(15, 'thebest firstclass', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'sdvnmvcxcv'),
-(16, 'thebest firstclass', 'spotwebdev.com@gmail.com', '07080879957', '23456789', 'sdfghjked');
+(21, 'undefined', 'spotwebdev.com@gmail.com', '08108833188', 'uuu', 'undefined'),
+(22, 'undefined', 'giftchinenyenwa1@gmail.com', '07047548913', 'i made payment but it is not verified yet', 'undefined'),
+(23, 'EZEA UGOCUKWU', 'spotwebdev.com@gmail.com', '08108833188', 'gbn ', 'fgvbhnm, '),
+(24, 'Ezea Ugochukwu', 'spotwebdev.com@gmail.com', '08108833188', '678', '   nnnnn');
 
 -- --------------------------------------------------------
 
@@ -260,7 +260,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `appointments`
 --
 ALTER TABLE `appointments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `booking`
@@ -272,7 +272,7 @@ ALTER TABLE `booking`
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `event`

@@ -1,6 +1,6 @@
 <?php
 
-include('../server/connection.php')
+    include '../server/connection.php';
 
 ?>
 
@@ -16,7 +16,7 @@ include('../server/connection.php')
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-	<title><?php  echo $sitename ?></title>
+	<title><?php echo $sitename ?></title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
 	<!-- Google Fonts Css-->
@@ -49,7 +49,7 @@ include('../server/connection.php')
 
 <body>
 
-	
+
 
 
 	<!-- Preloader Start -->
@@ -61,7 +61,7 @@ include('../server/connection.php')
 	</div> -->
 	<!-- Preloader End -->
 
-	<?php include('../includes/navbar.php') ?>
+	<?php include '../includes/navbar.php'?>
 
 	<!-- Page Header Start -->
 	<div class="page-header">
@@ -191,7 +191,7 @@ include('../server/connection.php')
 						<form form id="contactForm"  method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.25s">
 							<div class="row">
 								<div class="form-group col-md-6 mb-4">
-									<input type="text" name="name" class="form-control" id="fullname" placeholder="Enter Name" required="">
+									<input type="text" name="name" class="form-control" id="name" placeholder="Enter Name" required="">
 									<div class="help-block with-errors"></div>
 								</div>
 
@@ -206,18 +206,18 @@ include('../server/connection.php')
 								</div>
 
 								<div class="form-group col-md-6 mb-4">
-									<input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required="">
+									<input type="text" name="subject" class="form-control" id="subject" placeholder="Title" required="">
 									<div class="help-block with-errors"></div>
 								</div>
 
 								<div class="form-group col-md-12 mb-5">
-									<textarea name="message" class="form-control" id="msg" rows="5" placeholder="Your Message" required=""></textarea>
+									<textarea name="message" class="form-control" id="message" rows="5" placeholder="Your Message" required=""></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 
 								<div class="col-md-12">
 									<button type="submit" class="btn-default">send message</button>
-									
+
 								</div>
 							</div>
 						</form>
@@ -228,7 +228,7 @@ include('../server/connection.php')
 	</div>
 	<!-- Contact Form End -->
 
-	
+
 
 	<!-- Our Scrolling Ticker Section Start -->
 	<div class="our-scrolling-ticker">
@@ -252,7 +252,7 @@ include('../server/connection.php')
 	<!-- Scrolling Ticker Section End -->
 
 	<!-- Footer Start -->
-	<?php include('../includes/footer.php') ?>
+	<?php include '../includes/footer.php'?>
 	<!-- Footer End -->
 	<!-- Include SweetAlert2 JS -->
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.min.js"></script>
@@ -288,9 +288,9 @@ include('../server/connection.php')
 	<script src="<?php echo $domain ?>assets/js/wow.js"></script>
 	<!-- Main Custom js file -->
 	<script src="<?php echo $domain ?>assets/js/function.js"></script>
-	<script src="../../assets/<?php echo $domain ?>assets/js/theme-panel.js"></script>
+	<script src="<?php echo $domain ?>assets/js/theme-panel.js"></script>
 </body>
 
-<!-- Mirrored from demo.awaikenthemes.com/html-preview/physiocare/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Feb 2025 22:50:20 GMT -->
+
 
 </html>
