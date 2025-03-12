@@ -53,12 +53,12 @@ include('../server/connection.php')
 
 
 	<!-- Preloader Start -->
-	<div class="preloader">
+	<!-- <div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
 			<div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Preloader End -->
 
 	<?php include('../includes/navbar.php') ?>
@@ -95,7 +95,7 @@ include('../server/connection.php')
 						<!-- Contact Info Content Start -->
 						<div class="contact-info-content">
 							<h3>location</h3>
-							<p>24/11 Robert Road , New York , USA</p>
+							<p>At Caversham House, 18 Kingston Gardens Beddington surrey cr0 4tx </p>
 						</div>
 						<!-- Contact Info Content End -->
 					</div>
@@ -115,7 +115,7 @@ include('../server/connection.php')
 						<div class="contact-info-content">
 							<h3>email</h3>
 							<p>info@domainname.com</p>
-							<p>sales@domainname.com</p>
+							<p>circlesmith880@gmail.com</p>
 						</div>
 						<!-- Contact Info Content End -->
 					</div>
@@ -134,8 +134,8 @@ include('../server/connection.php')
 						<!-- Contact Info Content Start -->
 						<div class="contact-info-content">
 							<h3>phone</h3>
-							<p>(+01) 789 854 856</p>
-							<p>(+02) 895 867 781</p>
+							<p>+234 744 3961 597</p>
+							<p>+234 781 0556 515</p>
 						</div>
 						<!-- Contact Info Content End -->
 					</div>
@@ -184,7 +184,7 @@ include('../server/connection.php')
 						<!-- Section Title Start -->
 						<div class="section-title">
 							<h3 class="wow fadeInUp">contact us</h3>
-							<h2 class="text-anime-style-2" data-cursor="-opaque"><span>Get</span> In Touch With Us</h2>
+							<h2 class="text-anime-style-2" data-cursor="-opaque"><span>Get</span> In Touch with Us</h2>
 						</div>
 						<!-- Section Title End -->
 
@@ -228,38 +228,24 @@ include('../server/connection.php')
 	</div>
 	<!-- Contact Form End -->
 
-	<!-- Google Map Start -->
-	<div class="google-map">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12">
-					<!-- Google Map Iframe Start -->
-					<div class="google-map-iframe">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div>
-					<!-- Google Map Iframe End -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Google Map End -->
+	
 
 	<!-- Our Scrolling Ticker Section Start -->
 	<div class="our-scrolling-ticker">
 		<!-- Scrolling Ticker Start -->
 		<div class="scrolling-ticker-box">
 			<div class="scrolling-content">
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :+234 781 0556 515</span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries :circlesmith880@gmail.com</span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment:+234 744 3961 597</span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
 			</div>
 
 			<div class="scrolling-content">
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : +234 781 0556 515</span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : circlesmith880@gmail.com</span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: +234 744 3961 597</span>
+				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">hours : Mon to Fri : 10:00 To 6:00 </span>
 			</div>
 		</div>
 	</div>

@@ -45,12 +45,12 @@ include('../server/connection.php')
 <body>
 
     <!-- Preloader Start -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
             <div id="loading-icon"><img src="<?php echo $domain ?>assets/images/loader.svg" alt=""></div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader End -->
 
     <?php include('../includes/navbar.php') ?>
@@ -62,7 +62,7 @@ include('../server/connection.php')
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Emily Brown</h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Susan Obi</h1>
 
                     </div>
                     <!-- Page Header Box End -->
@@ -80,7 +80,7 @@ include('../server/connection.php')
                     <!-- team member image start -->
                     <div class="team-member-image">
                         <figure class="image-anime">
-                            <img src="<?php echo $domain ?>assets/images/me/1.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/me/2.jpg" alt="">
                         </figure>
                     </div>
                     <!-- team member image end -->
@@ -89,18 +89,18 @@ include('../server/connection.php')
                     <!-- team member details start -->
                     <div class="team-member-details">
                         <div class="member-detail-header">
-                            <h2 class="text-anime-style-2">Dr. Emily Johnson</h2>
+                            <h2 class="text-anime-style-2">Dr. Susan Obi</h2>
                             <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. Emily Johnson specializes in various massage techniques, including deep tissue, Swedish, and hot stone massage. She customizes each session to meet your specific needs, promoting relaxation, pain relief, and improved mobility.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment. She is an experienced specialist who has always focused on health and wellness, which led to her pursuing career</p>
                         </div>
 
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
                                 <li><span>Position</span>Massage Therapist</li>
-                                <li><span>Experience</span>06 Years</li>
-                                <li><span>Email</span>contact@<?php echo $siteemail ?></li>
+                                <li><span>Experience</span>6 Years</li>
+                                <li><span>Email</span><?php echo $siteemail ?></li>
                             </ul>
                         </div>
 
@@ -132,8 +132,21 @@ include('../server/connection.php')
                             <h2 class="wow fadeInUp">personal info</h2>
                         </div>
                         <div class="member-info-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.5s">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s"> <h4>Certificate/Education</h4>
+
+</p>
+<!-- <p class="wow fadeInUp" data-wow-delay="0.25s"> Ms. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment.
+</p> -->
+<!-- <p class="wow fadeInUp" data-wow-delay="0.25s"> She is an experienced specialist who has always focused on health and wellness, which led to her pursuing a career.
+</p> -->
+<p class="wow fadeInUp" data-wow-delay="0.25s"> A graduate with Masters and a bachelors  in health soft tissue. Her extensive knowledge of anatomy and the muscular system combined with her friendly style and communication skills resulted in her client feeling completely relaxed and truly able to experience relief from life aches and pains. 
+</p>
+<p class="wow fadeInUp" data-wow-delay="0.25s"> Her massage therapy techniques are also ideal for fitness enthusiast who include recovery in their exercise regimes
+</p>
+
+
+                            <p class="wow fadeInUp" data-wow-delay="0.5s">Her surprisingly strong touch has earned her nickname of Prof. Her deep tissue massage is excellent while relaxation and sports massage, which includes stretching and range of motion therapy . She understands skincare for body and Facial treatment.
+                            She is so amazing in her work as she loves making her clients feel better and relaxed all the time.</p>
                         </div>
                     </div>
                     <!-- About Member Info End -->
@@ -325,7 +338,7 @@ include('../server/connection.php')
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :<?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
