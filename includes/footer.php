@@ -6,9 +6,7 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="<?php echo $domain ?><assets>
-                            <images>
-                            <work>21.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/work/21.jpg" alt="">
                         </div>
                         <!-- Footer Logo End -->
 
