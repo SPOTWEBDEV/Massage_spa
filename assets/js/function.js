@@ -1,3 +1,4 @@
+
 (function ($) {
     "use strict";
 	
@@ -225,48 +226,66 @@
 
 	/* Contact form validation */
 	var $contactform = $("#contactForm");
-	$contactform.validator({focus: false}).on("submit", function (event) {
-		if (!event.isDefaultPrevented()) {
-			event.preventDefault();
-			submitForm();
-		}
-	});
+$contactform.validator({ focus: false }).on("submit", function (event) {
+    if (!event.isDefaultPrevented()) {
+        event.preventDefault();
+        submitForm();
+    }
+});
 
-	function submitForm(){
-		/* Initiate Variables With Form Content*/
-		var fullname = $("#fullname").val();
-		var email = $("#email").val();
-		var phone = $("#phone").val();
-		var subject = $("#subject").val();
-		var message = $("#msg").val();
+function submitForm() {
+    /* Initiate Variables With Form Content */
+    var fullname = $("#fullname").val();
+    var email = $("#email").val();
+    var phone = $("#phone").val();
+    var subject = $("#subject").val();
+    var message = $("#msg").val();
 
-		$.ajax({
-			type: "POST",
-			url: "form-process.php",
-			data: "fullname=" + fullname + "&name=" + "&email=" + email + "&phone=" + phone + "&subject=" + subject + "&message=" + message,
-			success : function(text){
-				if (text == "success"){
-					formSuccess();
-				} else {
-					submitMSG(false,text);
-				}
-			}
-		});
-	}
+    $.ajax({
+        type: "POST",
+        url: "form-process.php",
+        data: "fullname=" + fullname + "&name=" + "&email=" + email + "&phone=" + phone + "&subject=" + subject + "&message=" + message,
+        success: function (text) {
+            if (text == "success") {
+                formSuccess();
+            } else {
+                submitMSG(false, text);
+            }
+        }
+    });
+}
 
-	function formSuccess(){
-		$contactform[0].reset();
-		submitMSG(true, "Message Sent Successfully!")
-	}
+function formSuccess() {
+    $contactform[0].reset();
+    // Show success message using SweetAlert
+    Swal.fire({
+        icon: 'success',
+        title: 'Message Sent Successfully!',
+        showConfirmButton: false,
+        timer: 1500
+    });
+}
 
-	function submitMSG(valid, msg){
-		if(valid){
-			var msgClasses = "h3 text-success";
-		} else {
-			var msgClasses = "h3 text-danger";
-		}
-		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-	}
+function submitMSG(valid) {
+    // Show error message using SweetAlert
+    if (valid) {
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: 'Message Sent Successfully!',
+            showConfirmButton: false,
+            timer: 1500
+        });
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'sorry the ',
+            showConfirmButton: true
+        });
+    }
+}
+
 	/* Contact form validation end */
 
 	/* Appointment form validation */

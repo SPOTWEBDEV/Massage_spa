@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $msg = $connection->real_escape_string($_POST['message']);
 
     // Insert data into database
-    $sql = "INSERT INTO contact_messages (name, email, phone, subject, message) 
+    $sql = "INSERT INTO contact (name, email, phone, subject, message) 
             VALUES ('$name', '$email', '$phone', '$subject', '$msg')";
 
     if ($connection->query($sql) === TRUE) {

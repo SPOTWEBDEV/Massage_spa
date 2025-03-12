@@ -73,7 +73,7 @@ include('./server/connection.php')
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                             <a href="#" class="btn-default">explore services</a>
-                            <a href="#" class="btn-default btn-highlighted">book appointment</a>
+                            <a href="<?php echo $domain ?>booking/" class="btn-default btn-highlighted">book appointment</a>
                         </div>
                         <!-- Hero Content Body End -->
                     </div>
@@ -507,7 +507,7 @@ include('./server/connection.php')
 
                         <!-- Service Footer Start -->
                         <div class="service-cta-btn">
-                            <a href="#" class="btn-default">Book Appointment</a>
+                            <a href="<?php echo $domain ?>booking/" class="btn-default">Book Appointment</a>
                         </div>
                         <!-- Service Footer End -->
                     </div>

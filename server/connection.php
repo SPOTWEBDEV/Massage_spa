@@ -38,7 +38,7 @@ elseif ($request == 'http') {
     $domain = "http://localhost/Massage_spa/";
     define("USER", "root");
     define("PASSWORD", "");
-    define("DATABASE", "booking");
+    define("DATABASE", "message");
 }
 
 // // Database connection

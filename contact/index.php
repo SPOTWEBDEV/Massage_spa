@@ -41,6 +41,10 @@ include('../server/connection.php')
 	<link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
 	<!-- Include SweetAlert2 CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.min.css" rel="stylesheet">
+	<!-- Include SweetAlert2 CSS and JS -->
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.5/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.5/dist/sweetalert2.min.js"></script>
+
 </head>
 
 <body>
@@ -207,13 +211,13 @@ include('../server/connection.php')
 								</div>
 
 								<div class="form-group col-md-12 mb-5">
-									<textarea name="msg" class="form-control" id="msg" rows="5" placeholder="Your Message" required=""></textarea>
+									<textarea name="message" class="form-control" id="msg" rows="5" placeholder="Your Message" required=""></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 
 								<div class="col-md-12">
-									<button type="submit" class="btn-default disabled">send message</button>
-									<div id="msgSubmit" class="h3 hidden"></div>
+									<button type="submit" class="btn-default">send message</button>
+									
 								</div>
 							</div>
 						</form>

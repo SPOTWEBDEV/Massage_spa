@@ -93,7 +93,7 @@ include('../server/connection.php')
 					<div class="col-lg-12">
 						<div class="appointment-form wow fadeInUp">
 							<!-- Form Start -->
-							<form id="appointmentForm" action="#" method="POST" data-toggle="validator">
+							<form id="appointmentForm"  method="POST" data-toggle="validator">
 								<div class="row">
 									<div class="form-group col-md-6 mb-4">
 										<input type="text" name="name" class="form-control" id="name" placeholder="Enter Name" required>
