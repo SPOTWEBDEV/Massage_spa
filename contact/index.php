@@ -114,7 +114,7 @@
 						<!-- Contact Info Content Start -->
 						<div class="contact-info-content">
 							<h3>email</h3>
-							<p>info@domainname.com</p>
+							<p><?php echo $siteemail?></p>
 							<p>circlesmith880@gmail.com</p>
 						</div>
 						<!-- Contact Info Content End -->
@@ -134,8 +134,8 @@
 						<!-- Contact Info Content Start -->
 						<div class="contact-info-content">
 							<h3>phone</h3>
-							<p>+234 744 3961 597</p>
-							<p>+234 781 0556 515</p>
+							<p><?php echo $sitephone?></p>
+							<p><?php echo $sitephone2?></p>
 						</div>
 						<!-- Contact Info Content End -->
 					</div>
@@ -154,8 +154,8 @@
 						<!-- Contact Info Content Start -->
 						<div class="contact-info-content">
 							<h3>working hours</h3>
-							<p>Mon to Fri : 10:00 To 6:00</p>
-							<p>Sat : 10:00AM To 3:00PM</p>
+							<p>Mon to sat : 9:00am To 9:00pm</p>
+							<p>Sun : 10:00AM To 8:00PM</p>
 						</div>
 						<!-- Contact Info Content End -->
 					</div>
@@ -234,19 +234,19 @@
 	<div class="our-scrolling-ticker">
 		<!-- Scrolling Ticker Start -->
 		<div class="scrolling-ticker-box">
-			<div class="scrolling-content">
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :+234 781 0556 515</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries :circlesmith880@gmail.com</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment:+234 744 3961 597</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
-			</div>
+		<div class="scrolling-content">
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
+            </div>
 
 			<div class="scrolling-content">
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : +234 781 0556 515</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : circlesmith880@gmail.com</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: +234 744 3961 597</span>
-				<span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">hours : Mon to Fri : 10:00 To 6:00 </span>
-			</div>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
+            </div>
 		</div>
 	</div>
 	<!-- Scrolling Ticker Section End -->

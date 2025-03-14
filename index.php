@@ -76,7 +76,7 @@ include './server/connection.php';
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">welcome to <?php echo $sitename  ?></h3>
-                            <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Holistic Treatment</span></h1>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Holistic Health And Wellbeing Practitioner </span></h1>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">We offer range of treatments to help you active optimal physical, emotional and sporitual well-being. Holistic massage swedish, Deep tissue, Refexology(foot) massage, Physio streaaching</p>
                         </div>
                         <!-- Section Title End -->
@@ -84,7 +84,7 @@ include './server/connection.php';
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                             <a href="<?php echo $domain ?>about/" class="btn-default">explore</a>
-                            <a href="<?php echo $domain ?>appointment/" class="btn-default btn-highlighted">book appointment</a>
+                            <a href="<?php echo $domain ?>booking/" class="btn-default btn-highlighted">book appointment</a>
                         </div>
                         <!-- Hero Content Body End -->
                     </div>
@@ -897,15 +897,15 @@ include './server/connection.php';
             <div class="scrolling-content">
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to Fri : 10:00 To 6:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
             </div>
 
             <div class="scrolling-content">
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
                 <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working hours: Mon to Fri : 10:00 To 6:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working hours: Mon to Fri : 9:00 To 9:00 </span>
             </div>
         </div>
     </div>

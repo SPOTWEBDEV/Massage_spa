@@ -90,7 +90,7 @@ if(isset($_POST['btn'])){
                     <!-- Contact Us Image Start -->
                     <div class="contact-us-img">
                         <figure class="reveal image-anime">
-                            <img src="<?php echo $domain ?>assets/images/contact-us-img.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/work/40.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Contact Us Image End -->

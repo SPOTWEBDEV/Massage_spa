@@ -34,9 +34,9 @@
                     <div class="about-working-hour">
                         <h3>working hours</h3>
                         <ul>
-                            <li>mon to fri : 10:00 to 6:00</li>
-                            <li>sat : 10:00AM to 3:00PM</li>
-                            <li>sun : closed</li>
+                            <li>mon to sat : 9:00am to 9:00pm</li>
+                            <!-- <li>sat : 10:00AM to 3:00PM</li> -->
+                            <li>sun : 10:00am to 8:00pm</li>
                         </ul>
                     </div>
                     <!-- About Links End -->
@@ -67,7 +67,7 @@
                                     <img src="<?php echo $domain ?>assets/images/icon-phone.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p>+234 744 3961 597</p>
+                                    <p><?php echo $sitephone ?></p>
                                 </div>                                
                             </div>
                             <!-- Footer Info Box End -->
@@ -78,7 +78,7 @@
                                     <img src="<?php echo $domain ?>assets/images/icon-mail.svg" alt="">
                                 </div>
                                 <div class="footer-info-box-content">
-                                    <p>circlesmith880@gmail.com</p>
+                                    <p><?php echo $siteemail ?></p>
                                 </div>
                             </div>
                             <!-- Footer Info Box End -->

@@ -62,7 +62,7 @@ include('../server/connection.php')
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dr. Susan Obi</h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Holistic Health Therapist Susan Obi</h1>
 
                     </div>
                     <!-- Page Header Box End -->
@@ -89,17 +89,17 @@ include('../server/connection.php')
                     <!-- team member details start -->
                     <div class="team-member-details">
                         <div class="member-detail-header">
-                            <h2 class="text-anime-style-2">Dr. Susan Obi</h2>
+                            <h2 class="text-anime-style-2">HHT Susan Obi</h2>
                             <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Dr. Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment. She is an experienced specialist who has always focused on health and wellness, which led to her pursuing career</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment. She is an experienced specialist who has always focused on health and wellness, which led to her pursuing career</p>
                         </div>
 
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
                                 <li><span>Position</span>Massage Therapist</li>
-                                <li><span>Experience</span>6 Years</li>
+                                <li><span>Experience</span>15 Years</li>
                                 <li><span>Email</span><?php echo $siteemail ?></li>
                             </ul>
                         </div>
@@ -316,7 +316,7 @@ include('../server/connection.php')
 
                                         <!-- Cta Appointment Button Start -->
                                         <div class="cta-appointment-btn">
-                                            <a href="#" class="btn-default">Book Appointment</a>
+                                            <a href="<?php echo $domain ?>booking/" class="btn-default">Book Appointment</a>
                                         </div>
                                         <!-- Cta Appointment Button End -->
                                     </div>
@@ -338,18 +338,19 @@ include('../server/connection.php')
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :<?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
             </div>
 
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : (+01) 789 856 258</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : info@domainname.com</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: (+01) 879 526 789</span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hourse : Mon to Fri : 10:00 To 6:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
             </div>
+ 
         </div>
     </div>
     <!-- Scrolling Ticker Section End -->
