@@ -321,7 +321,7 @@ include('../server/connection.php')
 
                         <!-- Video Play Button Start -->
                         <div class="video-play-button absolute inset-0 flex justify-center items-center">
-                            <a href="<?php echo $domain ?>assets/videos/1.mp4" class="popup-video bg-black/50 p-4 rounded-full">
+                            <a href="<?php echo $domain ?>assets/images/work/42.mp4" class="popup-video bg-black/50 p-4 rounded-full">
                                 <i class="fa-solid fa-play text-black text-3xl"></i>
                             </a>
                         </div>

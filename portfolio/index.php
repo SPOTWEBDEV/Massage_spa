@@ -80,7 +80,7 @@ include('../server/connection.php')
                     <!-- team member image start -->
                     <div class="team-member-image">
                         <figure class="image-anime">
-                            <img src="<?php echo $domain ?>assets/images/me/2.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/work/41.jpg" alt="">
                         </figure>
                     </div>
                     <!-- team member image end -->
