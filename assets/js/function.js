@@ -295,25 +295,36 @@
 		$.ajax({
 			type: "POST",
 			url: "form-appointment.php",
-			data: "name=" + name + "&email=" + email + "&phone=" + phone + "&services=" + services + "&date=" + date + "&amount=" + amount + "&message=" + message,
-			success: function (text) {
-				console.log(text)
-				if (text == "SUCCESS") {
-					Swal.fire({
-						title: "Booking Successful!",
-						text: "Your appointment has been booked successfully.",
-						icon: "success"
-					});
+			data: {
+				name: name,
+				email: email,
+				phone: phone,
+				services: services,
+				date: date,
+				amount: amount,
+				message: message
+			},
+			dataType: "json", // Expect a JSON response
+			success: function (response) {
+				if (response.status === "success") {
+					window.location.href = response.redirect_url; // Redirect to PayPal
 				} else {
 					Swal.fire({
 						title: "Booking Failed!",
-						text: "Something went wrong when booking. Please try again later.",
+						text: response.message,
 						icon: "error"
 					});
-
 				}
+			},
+			error: function (xhr, status, error) {
+				Swal.fire({
+					title: "Request Error!",
+					text: "An unexpected error occurred: " + error,
+					icon: "error"
+				});
 			}
 		});
+		
 	}
 
 

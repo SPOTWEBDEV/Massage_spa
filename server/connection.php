@@ -64,6 +64,9 @@ $siteaddress  = "At Caversham Houses, 18 kingston Gardens Beddington Surrey Cro 
 session_start();
 
 
+// PayPal API Credentials
+$clientId = 'YOUR_PAYPAL_CLIENT_ID';
+$secret = 'YOUR_PAYPAL_SECRET';
 
 
 
