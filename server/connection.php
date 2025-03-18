@@ -65,8 +65,8 @@ session_start();
 
 
 // PayPal API Credentials
-$clientId = 'YOUR_PAYPAL_CLIENT_ID';
-$secret = 'YOUR_PAYPAL_SECRET';
+$clientId = 'ASUj5StyiTIb-N-wjmHUf17SVdt_twn-uLvO-4qNM0pT5nEwerliGetNzz6J62d4TohLaVVzO4pXE7iz';
+$secret = 'ELmD6frylcUjUAVGHhqcAV_58TojvitJg9u3GQVBdEeVBw0WANteUZnxLE25j5IYfYVPZvn-IZC0-Xwv';
 
 
 
