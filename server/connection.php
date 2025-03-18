@@ -70,3 +70,30 @@ $secret = 'ELmD6frylcUjUAVGHhqcAV_58TojvitJg9u3GQVBdEeVBw0WANteUZnxLE25j5IYfYVPZ
 
 
 
+
+define('PAYPAL_CLIENT_ID', 'ASUj5StyiTIb-N-wjmHUf17SVdt_twn-uLvO-4qNM0pT5nEwerliGetNzz6J62d4TohLaVVzO4pXE7iz');
+define('PAYPAL_SECRET', 'ELmD6frylcUjUAVGHhqcAV_58TojvitJg9u3GQVBdEeVBw0WANteUZnxLE25j5IYfYVPZvn-IZC0-Xwv');
+define('PAYPAL_API_URL', 'https://api-m.paypal.com'); // Use 'https://api-m.paypal.com' for live
+
+
+function getAccessToken()
+{
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_URL, PAYPAL_API_URL . "/v1/oauth2/token");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_USERPWD, PAYPAL_CLIENT_ID . ":" . PAYPAL_SECRET);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "grant_type=client_credentials");
+
+    $response = curl_exec($ch);
+    curl_close($ch);
+
+    $json = json_decode($response, true);
+    return $json['access_token'] ?? null;
+}
+
+
+
+
+

@@ -1,114 +1,97 @@
 <?php
-include('../server/connection.php');
+include '../server/connection.php';
+
 header('Content-Type: application/json'); // Ensure JSON response
 
-$response = ['status' => 'error', 'message' => 'An unexpected error occurred.'];
+$response = ['status' => 'error', 'message' => 'An unexpected error occurred.','redirect_url'=>'','paypal_response'=>''];
 
 // Validate and sanitize input
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $connection->real_escape_string($_POST['name'] ?? '');
-    $email = $connection->real_escape_string($_POST['email'] ?? '');
-    $phone = $connection->real_escape_string($_POST['phone'] ?? '');
+    $name     = $connection->real_escape_string($_POST['name'] ?? '');
+    $email    = $connection->real_escape_string($_POST['email'] ?? '');
+    $phone    = $connection->real_escape_string($_POST['phone'] ?? '');
     $services = $connection->real_escape_string($_POST['services'] ?? '');
-    $date = $connection->real_escape_string($_POST['date'] ?? '');
-    $amount = $connection->real_escape_string($_POST['amount'] ?? '');
-    $message = $connection->real_escape_string($_POST['message'] ?? '');
+    $date     = $connection->real_escape_string($_POST['date'] ?? '');
+    $amounts  = $connection->real_escape_string($_POST['amount'] ?? '');
+    $message  = $connection->real_escape_string($_POST['message'] ?? '');
+
+    $amount = str_replace('$', '', $amounts);
 
     // Basic Validation
-    if (empty($name) || empty($email) || empty($phone) || empty($services) || empty($date) || empty($amount)) {
+    if (empty($name) || empty($email) || empty($phone) || empty($services) || empty($date) || empty($amount) || empty($message)) {
         $response['message'] = "All fields are required.";
         echo json_encode($response);
         exit;
     }
 
     // Insert data with status 'Pending Payment'
-    $sql = "INSERT INTO appointments (name, email, phone, services, appointment_date, amount, status) 
+    $sql = "INSERT INTO appointments (name, email, phone, services, appointment_date, amount, status)
             VALUES ('$name', '$email', '$phone', '$services', '$date', '$amount', 'pending')";
 
-    if ($connection->query($sql) === TRUE) {
+    if ($connection->query($sql) === true) {
         $appointmentId = $connection->insert_id;
 
-        // Step 1: Generate Access Token
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://api.sandbox.paypal.com/v1/oauth2/token");
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_USERPWD, "$clientId:$secret");
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "grant_type=client_credentials");
-
-        $headers = [
-            "Accept: application/json",
-            "Accept-Language: en_US",
-        ];
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-
-        $result = curl_exec($ch);
-        if (!$result) {
-            $response['message'] = 'Error generating PayPal access token: ' . curl_error($ch);
+        $accessToken = getAccessToken();
+        if (! $accessToken || empty($accessToken)) {
+            $response = ['status' => 'error', 'message' => 'Error: PayPal access token is empty.'];
             echo json_encode($response);
             exit;
         }
-        curl_close($ch);
 
-        $json = json_decode($result, true);
-        if (empty($json['access_token'])) {
-            $response['message'] = 'Invalid PayPal access token response.';
-            echo json_encode($response);
-            exit;
-        }
-        $accessToken = $json['access_token'];
-
-        // Step 2: Create PayPal Order
-        $orderData = [
-            "intent" => "CAPTURE",
-            "purchase_units" => [[
-                "amount" => [
-                    "currency_code" => "USD",
-                    "value" => $amount
+        $paymentData = [
+            "intent"              => "CAPTURE",
+            "purchase_units"      => [
+                [
+                    "amount"      => [
+                        "currency_code" => "USD",
+                        "value"         => $amount,
+                    ],
+                    "description" => "Donation to Your Website",
                 ],
-                "custom_id" => $appointmentId
-            ]],
+            ],
             "application_context" => [
-                "return_url" => "$domain/history.php?appointment_id=$appointmentId&status=success",
-                "cancel_url" => "$domain/history.php?appointment_id=$appointmentId&status=cancel"
-            ]
+                "return_url" => "https://mywebsite-firstclass.vercel.app/",
+                "cancel_url" => "https://mywebsite-firstclass.vercel.app/",
+            ],
         ];
 
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://api.sandbox.paypal.com/v2/checkout/orders");
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($orderData));
-
-        $headers = [
+        $ch = curl_init(PAYPAL_API_URL . "/v2/checkout/orders");
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
             "Content-Type: application/json",
-            "Authorization: Bearer $accessToken"
-        ];
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+            "Authorization: Bearer " . $accessToken,
+        ]);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($paymentData));
 
-        $response = curl_exec($ch);
-        if (!$response) {
-            $response['message'] = 'Error creating PayPal order: ' . curl_error($ch);
+        $responses = curl_exec($ch);
+        curl_close($ch);
+
+        $order = json_decode($responses, true);
+
+        if (!$order) {
+            $response = [
+                'status'  => 'error',
+                'message' => 'Invalid PayPal response: ' . $responses,
+            ];
             echo json_encode($response);
             exit;
         }
-        curl_close($ch);
 
-        $responseData = json_decode($response, true);
-
-        if (isset($responseData['links'])) {
-            foreach ($responseData['links'] as $link) {
-                if ($link['rel'] === 'approve') {
-                    echo json_encode(['status' => 'success', 'redirect_url' => $link['href']]);
-                    exit;
-                }
-            }
+        if (isset($order['links'][1]['href'])) {
+            $response['status'] = "success";
+            $response['redirect_url'] = $order['links'][1]['href']; // Send link to frontend
+        } else {
+            $response['status'] = "error";
+            $response['message']= "Error: PayPal order response is invalid.";
+            $response['paypal_response'] = $order; // Debugging: Log full PayPal response
         }
+        echo json_encode($response);
+        exit;
 
-        $response['message'] = "Error processing the PayPal payment.";
     } else {
         $response['message'] = mysqli_error($connection);
     }
 }
 
 echo json_encode($response);
-?>
