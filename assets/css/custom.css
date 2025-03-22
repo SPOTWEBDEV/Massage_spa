@@ -829,7 +829,6 @@ header.main-header .header-sticky.active{
 
 .hero.bg-image{
 	position: relative;
-	background: url('../images/hero-bg.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 130px 0 180px;

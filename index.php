@@ -111,7 +111,7 @@ include './server/connection.php';
                         <!-- Home Contact Content Start -->
                         <div class="home-contact-content">
                             <h3>expert therapists</h3>
-                            <p>Our team of licensed and certified physiotherapists</p>
+                            <p>Our team of Certified physiotherapists</p>
                         </div>
                         <!-- Home Contact Content End -->
                     </div>

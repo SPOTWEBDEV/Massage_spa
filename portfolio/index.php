@@ -139,7 +139,7 @@ include('../server/connection.php')
 </p> -->
 <!-- <p class="wow fadeInUp" data-wow-delay="0.25s"> She is an experienced specialist who has always focused on health and wellness, which led to her pursuing a career.
 </p> -->
-<p class="wow fadeInUp" data-wow-delay="0.25s"> A graduate with Masters and a bachelors  in health soft tissue. Her extensive knowledge of anatomy and the muscular system combined with her friendly style and communication skills resulted in her client feeling completely relaxed and truly able to experience relief from life aches and pains. 
+<p class="wow fadeInUp" data-wow-delay="0.25s"> A graduate with Masters in health soft tissue. Her extensive knowledge of anatomy and the muscular system combined with her friendly style and communication skills resulted in her client feeling completely relaxed and truly able to experience relief from life aches and pains. 
 </p>
 <p class="wow fadeInUp" data-wow-delay="0.25s"> Her massage therapy techniques are also ideal for fitness enthusiast who include recovery in their exercise regimes
 </p>

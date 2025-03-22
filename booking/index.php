@@ -127,10 +127,11 @@ if(isset($_POST['btn'])){
                                 <div class="form-group col-md-6 mb-4">
                                     <select name="service" class="form-control" id="service" required="">
                                         <option value="" disabled selected>Select Massage Type</option>
-                                        <option value="Swedish Massage">Swedish Massage - $50</option>
-                                        <option value="Deep Tissue Massage">Deep Tissue Massage - $70</option>
-                                        <option value="Hot Stone Massage">Hot Stone Massage - $90</option>
-                                        <option value="Aromatherapy Massage">Aromatherapy Massage - $75</option>
+                                        <option value="facial treatment">Facial Treatment - £55</option>
+                                        <option value="facial mini">Facial Mini - £35</option>
+                                        <option value="Hot Stone Massage">Hot Stone Massage - £60</option>
+                                        <option value="bamboo massage">Bamboo Massage- £60</option>
+                                        <option value="Aromatherapy Massage">Aromatherapy Massage - £75</option>
                                     </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
