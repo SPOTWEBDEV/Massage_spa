@@ -282,18 +282,18 @@
 	});
 
 	function submitappointmentForm() {
-		console.log('booking')
+		console.log('bookings')
 		/* Initiate Variables With Form Content*/
 		var name = $("#name").val();
 		var email = $("#email").val();
 		var phone = $("#phone").val();
-		var services = $("#services").val();
+		var services = $("#service").val();
 		var message = $("#message").val();
 		var date = $("#date").val();
 		var amount = $('#amount').val()
 
 		$.ajax({
-			type: "POST",
+			method: "POST",
 			url: "form-appointment.php",
 			data: {
 				name: name,
@@ -306,6 +306,7 @@
 			},
 			dataType: "json", // Expect a JSON response
 			success: function (response) {
+				console.log(response)
 				if (response.status === "success") {
 					window.location.href = response.redirect_url; // Redirect to PayPal
 				} else {
@@ -317,6 +318,7 @@
 				}
 			},
 			error: function (xhr, status, error) {
+				console.log(xhr,error)
 				Swal.fire({
 					title: "Request Error!",
 					text: "An unexpected error occurred: " + error,
