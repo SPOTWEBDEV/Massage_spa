@@ -41,17 +41,6 @@ include './server/connection.php';
     <!-- Main Custom Css -->
     <link href="<?php echo $domain ?>assets/css/custom.css" rel="stylesheet" media="screen">
 
-
-
-    <!-- <style>
-        .hero.bg-image.parallaxie {
-            background-image: ('assets/work/16.jpg');
-            /* background-size: cover; */
-            /* background-position: center; */
-            /* background-repeat: no-repeat; */
-        }
-    </style> -->
-    <!-- class="hero bg-image parallaxie" style="background-image: url('assets/work/1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;" -->
 </head>
 
 <body>
@@ -63,6 +52,13 @@ include './server/connection.php';
     <!-- Preloader End -->
 
     <?php include './includes/navbar.php' ?>
+
+    <style>
+        .parallaxie{
+            background:url('assets/images/work/42.jpg');
+            background-repeat: no-repeat;
+        }
+    </style>
 
     <!-- Hero Section Start -->
     <div class="hero bg-image parallaxie" >
