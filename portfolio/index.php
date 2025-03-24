@@ -93,7 +93,7 @@ include('../server/connection.php')
                             <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Susan Obi is a licensed therapist for soft tissue, massage, and beauty treatment such as skin care, facial, and body treatment. She is an experienced specialist who has always focused on health and wellness, which led to her pursuing career</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Susan Obi is a graduate in business, health , soft tissue therapy and politics with BSC (Hon) & MSC. She is an experienced specialist who has always focused on health and wellness, which led to her pursuing career</p>
                         </div>
 
                         <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
@@ -105,7 +105,7 @@ include('../server/connection.php')
                         </div>
 
                         <div class="member-social-list">
-                            <ul class="wow fadeInUp" data-wow-delay="0.75s">
+                            <ul class="wow fadeInUp" data-wow-delay="0.75s"> mng
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
