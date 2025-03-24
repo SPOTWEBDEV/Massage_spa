@@ -65,7 +65,7 @@ include './server/connection.php';
     <?php include './includes/navbar.php' ?>
 
     <!-- Hero Section Start -->
-    <div class="hero bg-image parallaxie" >
+    <div  class="hero bg-image parallaxie" >
 
         
         <div class="container">
@@ -204,6 +204,10 @@ include './server/connection.php';
             </div>
         </div>
     </div>
+
+    
+
+  
     <!--  About Us End -->
 
     <!-- Gallery Carousel Section Start -->
@@ -752,6 +756,71 @@ include './server/connection.php';
     </div>
 
     <!-- Need Attention End -->
+
+
+    <div class="quality-treatment">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <style>
+                        .quality-treatment-video {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        .video-image video {
+                            width: 100%;
+                            height: auto;
+                            object-fit: cover;
+                            border-radius: 10px;
+                        }
+                    </style>
+                    <!-- Video Massage Treatment Start -->
+                    <div class="quality-treatment-video relative">
+                        <!-- Video Image Start -->
+                        <div class="video-image">
+                            <figure class="image-anime relative">
+                                <video  class="w-full h-auto max-w-[700px]" controls>
+                                    <source  src="<?php echo $domain ?>assets/images/work/50.mp4" type="video/mp4">
+                                </video>
+                            </figure>
+                        </div>
+                        <!-- Video Image End -->
+
+                        <!-- Video Play Button Start -->
+                        <div class="video-play-button absolute inset-0 flex justify-center items-center">
+                            <a href="<?php echo $domain ?>assets/images/work/50.mp4" class="popup-video bg-black/50 p-4 rounded-full">
+                                <i class="fa-solid fa-play text-black text-3xl"></i>
+                            </a>
+                        </div>
+
+                     
+                        <!-- Video Play Button End -->
+                    </div>
+                    <!-- Video Massage Treatment End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Quality Massage Content Start -->
+                    <div class="quality-treatment-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">Relaxation & Wellness</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"> <span>We Proudly</span> Offer Quality Massage Therapy</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">
+                            We are a team of certified and passionate massage therapists dedicated to your well-being. Our expertise spans various massage techniques, including Swedish, deep tissue, hot stone, and aromatherapy, ensuring that every session is customized to meet your specific needs.  
+                            </p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        
+                    </div>
+                    <!-- Quality Massage Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

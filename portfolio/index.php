@@ -89,7 +89,7 @@ include('../server/connection.php')
                     <!-- team member details start -->
                     <div class="team-member-details">
                         <div class="member-detail-header">
-                            <h2 class="text-anime-style-2">HHT Susan Obi</h2>
+                            <h2 class="text-anime-style-2">Susan Obi</h2>
                             <p class="wow fadeInUp">Senior Massage Therapist</p>
                         </div>
                         <div class="member-detail-content">
