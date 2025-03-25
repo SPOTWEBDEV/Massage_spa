@@ -832,6 +832,7 @@ header.main-header .header-sticky.active{
 	background-position: center center;
 	background-size: cover;
 	padding: 130px 0 180px;
+	
 }
 
 .hero.bg-image::before{
