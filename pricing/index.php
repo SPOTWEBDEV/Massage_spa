@@ -205,6 +205,15 @@ include '../server/connection.php';
                 { name: "Foot & Leg Massage", duration: [ { time: "30 mins", price: "55" }, { time: "1 hour", price: "75" } ] },
                 { name: "Warm Oil Massage", duration: [ { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] }
             ]
+        },
+        {
+            category: "Weight Loss & Cellulite Treatments",
+            type: "massage",
+            services: [
+                { name: "Anti-Cellulite Massage", duration: [ { time: "30 mins- 1 hour", price: "45" } ] },
+                { name: "cupping", duration: [  { time: "1 hour-1 hour 30 min", price: "75" } ] },
+              
+            ]
         }
     ];
 
