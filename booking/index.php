@@ -127,11 +127,11 @@ if(isset($_POST['btn'])){
                                 <div class="form-group col-md-6 mb-4">
                                     <select name="service" class="form-control" id="service" required="">
                                         <option value="" disabled selected>Select Massage Type</option>
-                                        <option value="facial treatment">Facial Treatment - £55</option>
-                                        <option value="facial mini">Facial Mini - £35</option>
-                                        <option value="Hot Stone Massage">Hot Stone Massage - £60</option>
-                                        <option value="bamboo massage">Bamboo Massage- £60</option>
-                                        <option value="Aromatherapy Massage">Aromatherapy Massage - £75</option>
+                                        <option value="facial_treatment">Facial Treatment - £55</option>
+                                        <option value="facial_mini">Facial Mini - £35</option>
+                                        <option value="Hot_Stone_Massage">Hot Stone Massage - £60</option>
+                                        <option value="bamboo_massage">Bamboo Massage- £60</option>
+                                        <option value="Aromatherapy_Massage">Aromatherapy Massage - £75</option>
                                     </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -172,13 +172,15 @@ if(isset($_POST['btn'])){
                         var service = this.value;
                         var amountField = document.getElementById('amount');
 
-                        if (service === 'Swedish Massage') {
+                        if (service === 'facial_mini') {
                             amountField.value = '$50';
-                        } else if (service === 'Deep Tissue Massage') {
+                        } else if (service === 'Hot_Stone_Massage') {
                             amountField.value = '$70';
-                        } else if (service === 'Hot Stone Massage') {
+                        } else if (service === 'bamboo_massage') {
                             amountField.value = '$90';
-                        } else if (service === 'Aromatherapy Massage') {
+                        } else if (service === 'Aromatherapy_Massage') {
+                            amountField.value = '$75';
+                        }} else if (service === 'facial_treatment') {
                             amountField.value = '$75';
                         }
                     });
