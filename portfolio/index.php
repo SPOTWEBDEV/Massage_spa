@@ -316,7 +316,7 @@ include('../server/connection.php')
 
                                         <!-- Cta Appointment Button Start -->
                                         <div class="cta-appointment-btn">
-                                            <a href="<?php echo $domain ?>booking/" class="btn-default">Book Appointment</a>
+                                            <a href="<?php echo $domain ?>pricing/" class="btn-default">Book Appointment</a>
                                         </div>
                                         <!-- Cta Appointment Button End -->
                                     </div>

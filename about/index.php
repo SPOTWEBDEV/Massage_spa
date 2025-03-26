@@ -106,6 +106,7 @@ include('../server/connection.php')
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Your Trusted <span>Massage Therapy</span> Experts</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">Welcome to Circle Of Beauty! We specialize in providing top-quality massage therapy designed to promote relaxation, reduce stress, and enhance overall well-being. Our experienced therapists tailor each session to your individual needs, ensuring a rejuvenating experience.</p>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default mt-3">book appointment</a>
                         </div>
                         <!-- Section Title End -->
 
@@ -210,6 +211,7 @@ include('../server/connection.php')
                         <div class="mva-item-content">
                             <h3>our mission</h3>
                             <p>Our mission is to provide high-quality, therapeutic massage treatments that enhance overall well-being. We believe that healing begins with touch, and we are dedicated to creating a space where relaxation, rejuvenation, and restoration come together.</p>
+                            
                         </div>
                         <!-- Mva Content End -->
                     </div>
@@ -276,7 +278,7 @@ include('../server/connection.php')
                     <div class="col-lg-6">
                         <!-- Cta Appointment Button Start -->
                         <div class="cta-appointment-btn">
-                            <a href="<?php echo $domain ?>booking/" class="btn-default">book now</a>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default">book now</a>
                         </div>
                         <!-- Cta Appointment Button End -->
                     </div>
@@ -342,6 +344,7 @@ include('../server/connection.php')
                             <p class="wow fadeInUp" data-wow-delay="0.25s">
                             We are a team of certified and passionate massage therapists dedicated to your well-being. Our expertise spans various massage techniques, including Swedish, deep tissue, hot stone, and aromatherapy, ensuring that every session is customized to meet your specific needs.  
                             </p>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default mt-3">book appointment</a>
                         </div>
                         <!-- Section Title End -->
 

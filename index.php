@@ -80,7 +80,7 @@ include './server/connection.php';
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                             <a href="<?php echo $domain ?>about/" class="btn-default">explore</a>
-                            <a href="<?php echo $domain ?>booking/" class="btn-default btn-highlighted">book appointment</a>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default btn-highlighted">book appointment</a>
                         </div>
                         <!-- Hero Content Body End -->
                     </div>
@@ -191,6 +191,7 @@ include './server/connection.php';
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">We Are The Best For <span>professionals therapist</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">We understand that injuries and acute pain can happen unexpectedly. Our emergency professionals therapist services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible.</p>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default mt-3">book appointment</a>
                         </div>
                         <!-- Section Title End -->
 
@@ -518,7 +519,7 @@ include './server/connection.php';
 
                         <!-- Service Footer Start -->
                         <div class="service-cta-btn">
-                            <a href="<?php echo $domain ?>booking/" class="btn-default">Book Now</a>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default">Book Now</a>
                         </div>
                         <!-- Service Footer End -->
                     </div>
@@ -807,6 +808,8 @@ include './server/connection.php';
                             <p class="wow fadeInUp" data-wow-delay="0.25s">
                             We are a team of certified and passionate massage therapists dedicated to your well-being. Our expertise spans various massage techniques, including Swedish, deep tissue, hot stone, and aromatherapy, ensuring that every session is customized to meet your specific needs.  
                             </p>
+                            <a href="<?php echo $domain ?>pricing/" class="btn-default mt-3">book appointment</a>
+                            
                         </div>
                         <!-- Section Title End -->
 

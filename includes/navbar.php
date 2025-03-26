@@ -57,7 +57,7 @@
                         </div>
                         <!-- Let’s Start Button Start -->
                         <div class="header-btn d-inline-flex">
-                            <a href="#" class="btn-default"><?php echo $sitephone ?></a>
+                            <a href="" class="btn-default"><?php echo $sitephone ?></a>
                         </div>
                         <!-- Let’s Start Button End -->
 					</div>

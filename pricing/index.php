@@ -54,7 +54,7 @@ include '../server/connection.php';
     </div>
     <!-- Preloader End -->
 
-    <?php include '../includes/navbar.php'?>
+    <?php include '../includes/navbar.php' ?>
 
 
     <!-- Page Header Start -->
@@ -93,10 +93,10 @@ include '../server/connection.php';
                 </div>
                 <div class="col-lg-8" id="type">
                     <!-- FAQs section start -->
-                     
+
                     <!-- FAQs section End -->
 
-                   
+
 
                 </div>
             </div>
@@ -174,60 +174,177 @@ include '../server/connection.php';
 
 
     <script>
-    const services = [
-        {
-            category: "Classic Massages",
-            type: "massage",
-            services: [
-                {
+        const services = [{
+                category: "Classic Massages",
+                type: "massage",
+                services: [{
                     name: "Aromatherapy Massage",
                     price: "from £55",
-                    duration: [
-                        { time: "1 hour", price: "60" },
-                        { time: "1 hour 30 min", price: "70" }
+                    duration: [{
+                            time: "1 hour",
+                            price: "60"
+                        },
+                        {
+                            time: "1 hour 30 min",
+                            price: "70"
+                        }
                     ]
-                }
-            ]
-        },
-        {
-            category: "Therapeutic Massages",
-            type: "massage",
-            services: [
-                { name: "Sports Massage", duration: [ { time: "1 hour", price: "60" }, { time: "1 hour 30 min", price: "70" } ] },
-                { name: "Deep Tissue Massage", duration: [ { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] },
-                { name: "Swedish Massage", duration: [ { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] },
-                { name: "Back, Neck & Shoulders Massage", duration: [ { time: "30 minutes", price: "40" }, { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] },
-                { name: "Back Massage", duration: [ { time: "30 minutes", price: "40" }, { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] },
-                { name: "Relaxing Massage", duration: [ { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] },
-                { name: "Full Body Massage", duration: [ { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] },
-                { name: "Foot Massage", duration: [ { time: "30 minutes", price: "55" }, { time: "1 hour", price: "75" } ] },
-                { name: "Hand Massage", duration: [ { time: "30 mins", price: "55" }, { time: "1 hour", price: "75" } ] },
-                { name: "Foot & Leg Massage", duration: [ { time: "30 mins", price: "55" }, { time: "1 hour", price: "75" } ] },
-                { name: "Warm Oil Massage", duration: [ { time: "1 hour", price: "55" }, { time: "1 hour 30 min", price: "75" } ] }
-            ]
-        },
-        {
-            category: "Weight Loss & Cellulite Treatments",
-            type: "massage",
-            services: [
-                { name: "Anti-Cellulite Massage", duration: [ { time: "30 mins- 1 hour", price: "45" } ] },
-                { name: "cupping", duration: [  { time: "1 hour-1 hour 30 min", price: "75" } ] },
-              
-            ]
-        }
-    ];
+                }]
+            },
+            {
+                category: "Therapeutic Massages",
+                type: "massage",
+                services: [{
+                        name: "Sports Massage",
+                        duration: [{
+                            time: "1 hour",
+                            price: "60"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "70"
+                        }]
+                    },
+                    {
+                        name: "Deep Tissue Massage",
+                        duration: [{
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Swedish Massage",
+                        duration: [{
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Back, Neck & Shoulders Massage",
+                        duration: [{
+                            time: "30 minutes",
+                            price: "40"
+                        }, {
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Back Massage",
+                        duration: [{
+                            time: "30 minutes",
+                            price: "40"
+                        }, {
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Relaxing Massage",
+                        duration: [{
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Full Body Massage",
+                        duration: [{
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Foot Massage",
+                        duration: [{
+                            time: "30 minutes",
+                            price: "55"
+                        }, {
+                            time: "1 hour",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Hand Massage",
+                        duration: [{
+                            time: "30 mins",
+                            price: "55"
+                        }, {
+                            time: "1 hour",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Foot & Leg Massage",
+                        duration: [{
+                            time: "30 mins",
+                            price: "55"
+                        }, {
+                            time: "1 hour",
+                            price: "75"
+                        }]
+                    },
+                    {
+                        name: "Warm Oil Massage",
+                        duration: [{
+                            time: "1 hour",
+                            price: "55"
+                        }, {
+                            time: "1 hour 30 min",
+                            price: "75"
+                        }]
+                    }
+                ]
+            },
+            {
+                category: "Weight Loss & Cellulite Treatments",
+                type: "massage",
+                services: [{
+                        name: "Anti-Cellulite Massage",
+                        duration: [{
+                            time: "30 mins- 1 hour",
+                            price: "45"
+                        }]
+                    },
+                    {
+                        name: "cupping",
+                        duration: [{
+                            time: "1 hour-1 hour 30 min",
+                            price: "75"
+                        }]
+                    },
 
-    services.forEach(element => {
-        document.getElementById("catagery").innerHTML += `<li><a href="#manual_therapy">${element.category}</a></li>`;
+                ]
+            }
+        ];
 
-        let html = `<div class="faqs-section" id="manual_therapy">
+        services.forEach(element => {
+            document.getElementById("catagery").innerHTML += `<li><a href="#manual_therapy">${element.category}</a></li>`;
+
+            let html = `<div class="faqs-section" id="manual_therapy">
                         <div class="faqs-section-title">
                             <h2 class="text-anime-style-2" data-cursor="-opaque">${element.category}</h2>
                         </div>
                         <div class="faq-accordion" id="accordion">`;
 
-        element.services.forEach((el, index) => {
-            html += `<div class="accordion-item wow fadeInUp">
+            element.services.forEach((el, index) => {
+                html += `<div class="accordion-item wow fadeInUp">
                         <h2 class="accordion-header" id="heading${index}">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
@@ -239,19 +356,24 @@ include '../server/connection.php';
                             <div class="accordion-body">
                                 <p>Pricing and duration:</p>
                                 <ul>`;
-            el.duration.forEach(dur => {
-                html += `<li>${dur.time} - £${dur.price}</li>`;
-            });
-            html += `</ul>
+                el.duration.forEach(dur => {
+                    html += `<li>${dur.time} - £${dur.price}</li>`;
+                });
+                html += `</ul>
+                            <div class="d-flex gap-2 justify-content-end mt-3">
+                                 <button class="btn btn-primary" id="service-btn-${index} ">Book Now £${el.duration[0].price}</button>
+                                <button class="btn btn-primary" id="service-btn-${index}">Book Now £${el.duration[1].price}</button>
+                            </div>
                             </div>
                         </div>
                     </div>`;
-        });
 
-        html += `</div></div>`;
-        document.getElementById("type").innerHTML += html;
-    });
-</script>
+            });
+
+            html += `</div></div>`;
+            document.getElementById("type").innerHTML += html;
+        });
+    </script>
 
 
 
