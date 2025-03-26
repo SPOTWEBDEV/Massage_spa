@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $response['paypal_response'] = $order; // Debugging: Log full PayPal response
         }
         echo json_encode($response);
-        exit;
+       
 
     } else {
         $response['message'] = mysqli_error($connection);
