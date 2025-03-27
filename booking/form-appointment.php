@@ -6,30 +6,42 @@ header('Content-Type: application/json'); // Ensure JSON response
 $response = ['status' => 'error', 'message' => 'An unexpected error occurred.','redirect_url'=>'','paypal_response'=>''];
 
 // Validate and sanitize input
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (isset($_POST['from'])) {
     $name     = $connection->real_escape_string($_POST['name'] ?? '');
     $email    = $connection->real_escape_string($_POST['email'] ?? '');
     $phone    = $connection->real_escape_string($_POST['phone'] ?? '');
-    $services = $connection->real_escape_string($_POST['services'] ?? '');
+   
     $date     = $connection->real_escape_string($_POST['date'] ?? '');
-    $amounts  = $connection->real_escape_string($_POST['amount'] ?? '');
+    
     $message  = $connection->real_escape_string($_POST['message'] ?? '');
+    $get  = $connection->real_escape_string($_POST['get'] ?? '');
 
-    $amount = str_replace('$', '', $amounts);
+   
+
 
     // Basic Validation
-    if (empty($name) || empty($email) || empty($phone) || empty($services) || empty($date) || empty($amount) || empty($message)) {
-        $response['message'] = "All fields are required.";
-        echo json_encode($response);
-        exit;
-    }
+    // if (empty($name) || empty($email) || empty($phone) || empty($date) || empty($message)) {
+    //     $response['message'] = "All fields are required.";
+    //     echo json_encode($response);
+    //     exit;
+    // }
 
+    
     // Insert data with status 'Pending Payment'
-    $sql = "INSERT INTO appointments (name, email, phone, services, appointment_date, amount, status)
-            VALUES ('$name', '$email', '$phone', '$services', '$date', '$amount', 'pending')";
+    $sql = mysqli_query($connection,"UPDATE  appointments SET `name`='$name', `email`='$email',  `phone`='$phone', `appointment_date`='$date', `message`='$message' WHERE `uuid`='$get'");
 
-    if ($connection->query($sql) === true) {
-        $appointmentId = $connection->insert_id;
+    
+            
+
+    if ($sql) {
+
+        $quey = mysqli_query($connection,"SELECT `id`,`amount` FROM `appointments` WHERE uuid='$get'");
+        $row = mysqli_fetch_assoc($quey);
+
+        $amount = $row['amount'];
+        $appointmentId = $row['id'];
+
+    
 
         $accessToken = getAccessToken();
         if (! $accessToken || empty($accessToken)) {
@@ -80,6 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (isset($order['links'][1]['href'])) {
             $response['status'] = "success";
+            $response['message'] = "";
             $response['redirect_url'] = $order['links'][1]['href']; // Send link to frontend
         } else {
             $response['status'] = "error";
@@ -94,4 +107,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-echo json_encode($response);
+

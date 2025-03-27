@@ -282,15 +282,21 @@
 	});
 
 	function submitappointmentForm() {
+
+		const url = new URLSearchParams(window.location.search)
+
+		const get = url.get('user');
+
+
+
 		console.log('bookings')
 		/* Initiate Variables With Form Content*/
 		var name = $("#name").val();
 		var email = $("#email").val();
 		var phone = $("#phone").val();
-		var services = $("#service").val();
 		var message = $("#message").val();
 		var date = $("#date").val();
-		var amount = $('#amount').val()
+		
 
 		$.ajax({
 			method: "POST",
@@ -299,35 +305,29 @@
 				name: name,
 				email: email,
 				phone: phone,
-				services: services,
 				date: date,
-				amount: amount,
-				message: message
+				message: message,
+				get:get,
+				from:'firstclass'
 			},
-			dataType: "json", // Expect a JSON response
 			success: function (response) {
-				console.log(response)
-				if (response.status === "success") {
-					window.location.href = response.redirect_url; // Redirect to PayPal
-				} else {
-					Swal.fire({
-						title: "Booking Failed!",
-						text: response.message,
-						icon: "error"
-					});
+
+				if(response.status == 'success'){
+                    // window.location.href = response.redirect_url
+				}else{
+					alert(response.message)
 				}
+				console.log(response)
 			},
-			error: function (xhr, status, error) {
-				console.log(xhr,error)
-				Swal.fire({
-					title: "Request Error!",
-					text: "An unexpected error occurred: " + error,
-					icon: "error"
-				});
+			error(error){
+				console.log(error.responseText)
+
 			}
+			
 		});
 		
 	}
+	
 
 
 	/* Appointment form validation end */
