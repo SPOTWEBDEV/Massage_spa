@@ -386,7 +386,7 @@ include '../server/connection.php';
             el.onclick = function() {
                 let collection = el.getAttribute('get').split(
                     '-'); // Assuming 'get' contains 'serviceName-price-hour'
-                console.log(collection)
+                
                 let serviceName = collection[0];
                 let price = collection[1];
                 let hour = collection[2];
@@ -408,6 +408,7 @@ include '../server/connection.php';
                         from:'firstclass'
                     },
                     success(res){
+                        console.log(res)
 
                         const data = JSON.parse(res)
 

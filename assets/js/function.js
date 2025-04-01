@@ -313,7 +313,7 @@
 			success: function (response) {
 
 				if(response.status == 'success'){
-                    // window.location.href = response.redirect_url
+                                       window.location.href = response.redirect_url
 				}else{
 					alert(response.message)
 				}

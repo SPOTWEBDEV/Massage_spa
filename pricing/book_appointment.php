@@ -31,13 +31,13 @@ if (isset($_POST['from']) == 'firstclass') {
     $generatedCode = generateCode();
 
     // Insert into the appointments table
-    $sql = "INSERT INTO appointments (uuid, services, amount, hour) 
+    $sql = "INSERT INTO appointments (`uuid`, `services`, `amount`, `hour`) 
             VALUES ('$generatedCode', '$service', '$amount', '$hour')";
 
     if ($connection->query($sql) === TRUE) {
         echo json_encode(["status" => "success", "message" => "Appointment booked successfully","data"=>$generatedCode]);
     } else {
-        echo json_encode(["status" => "error", "message" => "Error: "]);
+        echo json_encode(["status" => "error", "message" => "Error:" . mysqli_error($connection)]);
     }
 } else {
     echo json_encode(["status" => "error", "message" => "Invalid data"]);
