@@ -27,7 +27,9 @@ if(isset($_POST['btn'])){
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap"
+        rel="stylesheet">
     <!-- Bootstrap Css -->
     <link href="<?php echo $domain ?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- SlickNav Css -->
@@ -107,26 +109,29 @@ if(isset($_POST['btn'])){
                             <div class="row">
                                 <!-- Full Name -->
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter Full Name" required="">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Enter Full Name" required="">
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <!-- Email -->
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email Adress" required="">
+                                    <input type="email" name="email" class="form-control" id="email"
+                                        placeholder="Enter Email Adress" required="">
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <!-- Phone Number -->
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number" required="">
+                                    <input type="text" name="phone" class="form-control" id="phone"
+                                        placeholder="Phone Number" required="">
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <!-- Service (Select Dropdown) -->
-                        
-                                
-                                
+
+
+
 
                                 <!-- Date -->
                                 <div class="form-group col-md-6 mb-4">
@@ -136,7 +141,8 @@ if(isset($_POST['btn'])){
 
                                 <!-- Message -->
                                 <div class="form-group col-md-12 mb-5">
-                                    <textarea name="msg" class="form-control" id="message" rows="5" placeholder="Any Special Request?" required=""></textarea>
+                                    <textarea name="msg" class="form-control" id="message" rows="5"
+                                        placeholder="Any Special Request?" required=""></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
@@ -150,7 +156,47 @@ if(isset($_POST['btn'])){
                     </div>
                 </div>
 
-        
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">How to Pay with PayPal (With or Without a
+                                    PayPal Account)</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 style="font-size:17px">💳 If You Don’t Have a PayPal Account (Pay as Guest): </h2>
+                                <ol>
+                                    <li>Pay with Debit or Credit Card
+                                    (Sometimes shown as "Check Out as Guest").</li>
+                                    <li>Enter your card details, billing address, and email</li>
+                                    <li>Click “Continue” or "Pay Now" to complete the transaction</li>
+                                    <li>You may be offered the option to create a PayPal account — this is optional.</li>
+                                    <li>You’ll be redirected back to our site with confirmation.</li>
+                                </ol>
+                                <h2 style="font-size:17px" >✅ If You Have a PayPal Account:</h2>
+                                <ol>
+                                    <li>Log in using your email and password.</li>
+                                    <li>Choose your preferred payment method (e.g., linked card, bank account, or PayPal balance).</li>
+                                    <li>Click "Pay Now" to complete your purchase.</li>
+                                    <li>You’ll be redirected back to our website with confirmation.</li>
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" id="redirectBtn" class="btn btn-primary">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
 
 
             </div>
@@ -159,7 +205,7 @@ if(isset($_POST['btn'])){
     <!-- Contact Form End -->
 
     <!-- Google Map Start -->
-   
+
     <!-- Google Map End -->
 
     <!-- Our Scrolling Ticker Section Start -->
@@ -167,17 +213,25 @@ if(isset($_POST['btn'])){
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :
+                    <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional
+                    inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment:
+                    <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat
+                    : 9:00 To 9:00 </span>
             </div>
 
             <div class="scrolling-content">
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. : <?php echo $sitephone ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional inqueries : <?php echo $siteemail ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment: <?php echo $sitephone2 ?></span>
-                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat : 9:00 To 9:00 </span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Emergency No. :
+                    <?php echo $sitephone ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">For any additional
+                    inqueries : <?php echo $siteemail ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Book Appointment:
+                    <?php echo $sitephone2 ?></span>
+                <span><img src="<?php echo $domain ?>assets/images/icon-sparkles.svg" alt="">Working Hours : Mon to sat
+                    : 9:00 To 9:00 </span>
             </div>
         </div>
     </div>

@@ -273,7 +273,7 @@
 	}
 
 	/* Appointment form validation */
-	var $appointmentForm = $("#appointmentForm"); 
+	var $appointmentForm = $("#appointmentForm");
 	$appointmentForm.validator({ focus: false }).on("submit", function (event) {
 		if (!event.isDefaultPrevented()) {
 			event.preventDefault();
@@ -296,7 +296,7 @@
 		var phone = $("#phone").val();
 		var message = $("#message").val();
 		var date = $("#date").val();
-		
+
 
 		$.ajax({
 			method: "POST",
@@ -307,27 +307,32 @@
 				phone: phone,
 				date: date,
 				message: message,
-				get:get,
-				from:'firstclass'
+				get: get,
+				from: 'firstclass'
 			},
 			success: function (response) {
 
-				if(response.status == 'success'){
-                                       window.location.href = response.redirect_url
-				}else{
+				if (response.status == 'success') {
+					$('#exampleModal').modal('show');
+					//   window.location.href = response.redirect_url
+					// window.location.replace(response.redirect_url);
+					$('#redirectBtn').off('click').on('click', function () {
+						window.location.replace(response.redirect_url);
+					});
+				} else {
 					alert(response.message)
 				}
 				console.log(response)
 			},
-			error(error){
+			error(error) {
 				console.log(error.responseText)
 
 			}
-			
+
 		});
-		
+
 	}
-	
+
 
 
 	/* Appointment form validation end */
