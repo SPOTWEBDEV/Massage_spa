@@ -1,6 +1,6 @@
 <?php
 include '../server/connection.php';
-include '../server/mailer/mailer.php'
+include '../server/mailer/mailer.php';
 
 header('Content-Type: application/json'); // Ensure JSON response
 
