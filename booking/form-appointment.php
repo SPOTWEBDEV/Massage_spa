@@ -58,7 +58,7 @@ if (isset($_POST['from'])) {
             "purchase_units"      => [
                 [
                     "amount"      => [
-                        "currency_code" => "USD",
+                        "currency_code" => "EUR",
                         "value"         => $amount,
                     ],
                     "description" => "Donation to Your Website",
