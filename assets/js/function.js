@@ -308,6 +308,7 @@
 				date: date,
 				message: message,
 				get: get,
+				url:window.location.href,
 				from: 'firstclass'
 			},
 			success: function (response) {

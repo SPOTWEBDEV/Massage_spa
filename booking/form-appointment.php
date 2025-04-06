@@ -17,6 +17,8 @@ if (isset($_POST['from'])) {
     $message  = $connection->real_escape_string($_POST['message'] ?? '');
     $get  = $connection->real_escape_string($_POST['get'] ?? '');
 
+    $url  = $connection->real_escape_string($_POST['url'] ?? '');
+
    
 
 
@@ -63,8 +65,8 @@ if (isset($_POST['from'])) {
                 ],
             ],
             "application_context" => [
-                "return_url" => "https://mywebsite-firstclass.vercel.app/",
-                "cancel_url" => "https://mywebsite-firstclass.vercel.app/",
+                "return_url" => $url,
+                "cancel_url" => $url,
             ],
         ];
 
