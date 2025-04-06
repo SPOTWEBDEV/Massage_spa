@@ -149,7 +149,14 @@ if(isset($_POST['btn'])){
                                 <!-- Submit Button -->
                                 <div class="col-md-12">
                                     <button type="submit" name="btn" class="btn-default">Book Now</button>
+                                    <!-- <div id="loader" style="display: none; margin-left:20px">Please wait...</div> -->
                                     <div id="msgSubmit" class="h3 hidden"></div>
+                                    <div id="loader" style="display: none;">
+                                        <div class="spinner-border text-primary" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </form>
@@ -171,20 +178,25 @@ if(isset($_POST['btn'])){
                             <div class="modal-body">
                                 <h2 style="font-size:17px">💳 If You Don’t Have a PayPal Account (Pay as Guest): </h2>
                                 <ol>
-                                    <li>Pay with Debit or Credit Card
-                                    (Sometimes shown as "Check Out as Guest").</li>
+                                    <li>Click on pay with Debit or Credit Card
+                                        (Sometimes shown as "Check Out as Guest") or click on create account.</li>
                                     <li>Enter your card details, billing address, and email</li>
                                     <li>Click “Continue” or "Pay Now" to complete the transaction</li>
-                                    <li>You may be offered the option to create a PayPal account — this is optional.</li>
+                                    <li>You may be offered the option to create a PayPal account — this is optional.
+                                    </li>
                                     <li>You’ll be redirected back to our site with confirmation.</li>
                                 </ol>
-                                <h2 style="font-size:17px" >✅ If You Have a PayPal Account:</h2>
+                                <h2 style="font-size:17px">✅ If You Have a PayPal Account:</h2>
                                 <ol>
                                     <li>Log in using your email and password.</li>
-                                    <li>Choose your preferred payment method (e.g., linked card, bank account, or PayPal balance).</li>
+                                    <li>Choose your preferred payment method (e.g., linked card, bank account, or PayPal
+                                        balance).</li>
                                     <li>Click "Pay Now" to complete your purchase.</li>
                                     <li>You’ll be redirected back to our website with confirmation.</li>
                                 </ol>
+                                <div class="alert alert-warning" role="alert">
+                                    The instruction has also been sent to your email.
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

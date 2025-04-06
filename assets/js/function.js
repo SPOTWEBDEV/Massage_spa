@@ -282,22 +282,18 @@
 	});
 
 	function submitappointmentForm() {
-
-		const url = new URLSearchParams(window.location.search)
-
+		const url = new URLSearchParams(window.location.search);
 		const get = url.get('user');
-
-
-
-		console.log('bookings')
-		/* Initiate Variables With Form Content*/
+	
+		console.log('bookings');
+	
+		// Get form values
 		var name = $("#name").val();
 		var email = $("#email").val();
 		var phone = $("#phone").val();
 		var message = $("#message").val();
 		var date = $("#date").val();
-
-
+	
 		$.ajax({
 			method: "POST",
 			url: "form-appointment.php",
@@ -308,31 +304,35 @@
 				date: date,
 				message: message,
 				get: get,
-				url:window.location.href,
+				url: window.location.href,
 				from: 'firstclass'
 			},
+			beforeSend: function () {
+				// Show loader before request starts
+				$("#loader").show();
+			},
 			success: function (response) {
-
+				// Hide loader when request is done
+				$("#loader").hide();
+	
 				if (response.status == 'success') {
 					$('#exampleModal').modal('show');
-					//   window.location.href = response.redirect_url
-					// window.location.replace(response.redirect_url);
 					$('#redirectBtn').off('click').on('click', function () {
 						window.location.replace(response.redirect_url);
 					});
 				} else {
-					alert(response.message)
+					alert(response.message);
 				}
-				console.log(response)
+				console.log(response);
 			},
-			error(error) {
-				console.log(error.responseText)
-
+			error: function (error) {
+				// Hide loader on error
+				$("#loader").hide();
+				console.log(error.responseText);
 			}
-
 		});
-
 	}
+	
 
 
 

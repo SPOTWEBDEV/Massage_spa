@@ -120,7 +120,7 @@ if (isset($_POST['from'])) {
 
     <h4 style='font-size:16px;'>If You Don’t Have a PayPal Account (Pay as Guest):</h4>
     <ol style='padding-left: 20px;'>
-      <li>Click the PayPal button on the website.</li>
+      <li>Click the PayPal button on the website or click on create account</li>
       <li>Choose <strong>“Pay with Debit or Credit Card”</strong> or <strong>“Check Out as Guest”</strong>.</li>
       <li>Enter your card details, billing address, and email.</li>
       <li>Click <strong>“Continue”</strong> or <strong>“Pay Now”</strong> to complete the transaction.</li>
