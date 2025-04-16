@@ -107,31 +107,14 @@ include './server/connection.php';
                         <!-- Home Contact Content Start -->
                         <div class="home-contact-content">
                             <h3>expert therapists</h3>
-                            <p>Our team of Certified physiotherapists</p>
+                            <p>An Certified therapists</p>
                         </div>
                         <!-- Home Contact Content End -->
                     </div>
                     <!-- Contact Item End -->
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- Contact Item Start -->
-                    <div class="home-contact-item wow fadeInUp" data-wow-delay="0.25s">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <img src="<?php echo $domain ?>assets/images/icon-home-contact-us-2.svg" alt="">
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Home Contact Content Start -->
-                        <div class="home-contact-content">
-                            <h3>emergency service</h3>
-                            <p>Our emergency professionals therapist services are designed to address</p>
-                        </div>
-                        <!-- Home Contact Content End -->
-                    </div>
-                    <!-- Contact Item End -->
-                </div>
+               
 
                 <div class="col-lg-4 col-md-6">
                     <!-- Contact Item Start -->
