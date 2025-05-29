@@ -179,7 +179,8 @@ include '../server/connection.php';
 
 
     <script>
-    const services = [{
+    const services = [ 
+        {
             category: "Classic Massages",
             type: "massage",
             services: [{
@@ -187,14 +188,28 @@ include '../server/connection.php';
                 price: "from £55",
                 duration: [{
                         time: "1 hour",
-                        price: "60"
+                        price: "55"
                     },
                     {
                         time: "1 hour 30 min",
                         price: "70"
                     }
                 ]
-            }]
+            },
+            {
+                name: "Mini Facial",
+                price: "from £25",
+                duration: [{
+                        time: "30 minute",
+                        price: "25"
+                    },
+                    {
+                        time: "1 hour",
+                        price: "40"
+                    }
+                ]
+            }
+        ]
         },
         {
             category: "Therapeutic Massages",
@@ -206,7 +221,7 @@ include '../server/connection.php';
                         price: "60"
                     }, {
                         time: "1 hour 30 min",
-                        price: "70"
+                        price: "80"
                     }]
                 },
                 {
@@ -216,7 +231,7 @@ include '../server/connection.php';
                         price: "55"
                     }, {
                         time: "1 hour 30 min",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
@@ -226,7 +241,7 @@ include '../server/connection.php';
                         price: "55"
                     }, {
                         time: "1 hour 30 min",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
@@ -239,7 +254,7 @@ include '../server/connection.php';
                         price: "55"
                     }, {
                         time: "1 hour 30 min",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
@@ -252,7 +267,7 @@ include '../server/connection.php';
                         price: "55"
                     }, {
                         time: "1 hour 30 min",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
@@ -262,7 +277,7 @@ include '../server/connection.php';
                         price: "55"
                     }, {
                         time: "1 hour 30 min",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
@@ -272,49 +287,30 @@ include '../server/connection.php';
                         price: "55"
                     }, {
                         time: "1 hour 30 min",
-                        price: "75"
-                    }]
-                },
-                {
-                    name: "Foot Massage",
-                    duration: [{
-                        time: "30 minutes",
-                        price: "55"
-                    }, {
-                        time: "1 hour",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
                     name: "Hand Massage",
                     duration: [{
                         time: "30 mins",
-                        price: "55"
+                        price: "40"
                     }, {
                         time: "1 hour",
-                        price: "75"
+                        price: "80"
                     }]
                 },
                 {
                     name: "Foot & Leg Massage",
                     duration: [{
                         time: "30 mins",
-                        price: "55"
+                        price: "40"
                     }, {
                         time: "1 hour",
-                        price: "75"
+                        price: "80"
                     }]
                 },
-                {
-                    name: "Warm Oil Massage",
-                    duration: [{
-                        time: "1 hour",
-                        price: "55"
-                    }, {
-                        time: "1 hour 30 min",
-                        price: "75"
-                    }]
-                }
+              
             ]
         },
         {
@@ -331,7 +327,7 @@ include '../server/connection.php';
                     name: "cupping",
                     duration: [{
                         time: "1 hour-1 hour 30 min",
-                        price: "75"
+                        price: "80"
                     }]
                 },
 

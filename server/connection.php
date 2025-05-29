@@ -60,8 +60,8 @@ $siteemail = "circleofbeauty@gmail.com";
 $emailpassword  = "support@bodyandsoulrelax.com";
 $site_email  = "support@bodyandsoulrelax.com";
 $host = 'mail.bodyandsoulrelax.com';
-$sitephone  = "0744 3961 597";
-$sitephone2 = "0781 0556 515";
+$sitephone  = "(+44) 744 3961 597";
+$sitephone2 = "(+44)744 3961 597";
 $siteaddress  = "At Caversham Houses, 18 kingston Gardens Beddington Surrey Cro 4tx";
 
 
