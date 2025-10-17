@@ -54,16 +54,16 @@ include './server/connection.php';
     <?php include './includes/navbar.php' ?>
 
     <style>
-        .parallaxie{
-            background:url('assets/images/work/42.jpg');
+        .parallaxie {
+            background: url('assets/images/work/42.jpg');
             background-repeat: no-repeat;
         }
     </style>
 
     <!-- Hero Section Start -->
-    <div  class="hero bg-image parallaxie" >
+    <div class="hero bg-image parallaxie">
 
-        
+
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -114,7 +114,7 @@ include './server/connection.php';
                     <!-- Contact Item End -->
                 </div>
 
-               
+
 
                 <div class="col-lg-4 col-md-6">
                     <!-- Contact Item Start -->
@@ -185,9 +185,9 @@ include './server/connection.php';
         </div>
     </div>
 
-    
 
-  
+
+
     <!--  About Us End -->
 
     <!-- Gallery Carousel Section Start -->
@@ -761,8 +761,8 @@ include './server/connection.php';
                         <!-- Video Image Start -->
                         <div class="video-image">
                             <figure class="image-anime relative">
-                                <video  class="w-full h-auto max-w-[700px]" controls>
-                                    <source  src="<?php echo $domain ?>assets/images/work/50.mp4" type="video/mp4">
+                                <video class="w-full h-auto max-w-[700px]" controls>
+                                    <source src="<?php echo $domain ?>assets/images/work/50.mp4" type="video/mp4">
                                 </video>
                             </figure>
                         </div>
@@ -775,7 +775,7 @@ include './server/connection.php';
                             </a>
                         </div>
 
-                     
+
                         <!-- Video Play Button End -->
                     </div>
                     <!-- Video Massage Treatment End -->
@@ -789,14 +789,14 @@ include './server/connection.php';
                             <h3 class="wow fadeInUp">Relaxation & Wellness</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque"> <span>We Proudly</span> Offer Quality Massage Therapy</h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">
-                            We are a team of certified and passionate massage therapists dedicated to your well-being. Our expertise spans various massage techniques, including Swedish, deep tissue, hot stone, and aromatherapy, ensuring that every session is customized to meet your specific needs.  
+                                We are a team of certified and passionate massage therapists dedicated to your well-being. Our expertise spans various massage techniques, including Swedish, deep tissue, hot stone, and aromatherapy, ensuring that every session is customized to meet your specific needs.
                             </p>
                             <a href="<?php echo $domain ?>pricing/" class="btn-default mt-3">book appointment</a>
-                            
+
                         </div>
                         <!-- Section Title End -->
 
-                        
+
                     </div>
                     <!-- Quality Massage Content End -->
                 </div>
@@ -839,6 +839,236 @@ include './server/connection.php';
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                             <div class="testimonial-content">
+                                                <p>"I enjoyed the massage with Susan and she made me feel at ease from the outset. She checked in just enough as to whether the pressure etc was what I wanted (it was), and was a skilled professional. Very pleasantly surprised by how calm the setting was too once you get up to the 6th floor of the building—it's a whole world away from the noisy street/gym complex."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Felicia Okoye</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Susan was highly skilled; it was an amazing massage. They have created a lovely space with music, incense, an electric blanket, and lemon water. Wonderful experience, will book again soon."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Genevieve</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Susan was fantastic. I booked her because I read her previous reviews and she didn't disappoint! I can highly recommend Susan. I felt really relaxed afterwards. I will be a repeat customer."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Mrs Ali</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Susan is really professional, friendly, and down to earth. The room was so calm and welcoming. Susan always asked if I was okay and suggested the best treatment for after my first session."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Florence</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Susan was very friendly and the reflexology was so relaxing that I almost fell asleep — complete success!"</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Benedeth</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Lovely massage."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Gladys</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"I loved Susan's treatment, I felt really relaxed and I had a glorious sleep the night after."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Cora</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Another great experience at the health spa. The team are great and Susan's reflexology is highly recommended."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Pauline</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"I loved Susan’s treatment, I felt really relaxed and I had a glorious sleep the night after."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Bose</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>"Great service! I highly recommend! Susan was lovely and knowledgeable."</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <div class="author-content">
+                                                <h3>Violence</h3>
+                                                <p>Treatment by Susan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="testimonial-content">
                                                 <p>"I’ve never felt more relaxed! The deep tissue massage helped release so much tension in my muscles. Highly recommend <?php echo $sitename ?> for an unforgettable experience!"</p>
                                             </div>
                                         </div>
@@ -849,11 +1079,11 @@ include './server/connection.php';
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Testimonial Slide End -->
 
                                 <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="testimonial-rating">
@@ -874,11 +1104,11 @@ include './server/connection.php';
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Testimonial Slide End -->
 
                                 <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="testimonial-rating">
@@ -899,11 +1129,11 @@ include './server/connection.php';
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Testimonial Slide End -->
 
                                 <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="testimonial-rating">
@@ -924,7 +1154,7 @@ include './server/connection.php';
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Testimonial Slide End -->
                             </div>
                             <div class="swiper-pagination"></div>
