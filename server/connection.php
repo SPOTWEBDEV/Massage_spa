@@ -42,9 +42,9 @@ if ($isLocalhost) {
     // Online (Live Server)
     $domain = "https://www.bodyandsoulrelax.com/";
 
-    define("USER", "pdicsrdj_massage_spa");
-    define("PASSWORD", "pdicsrdj_massage_spa");
-    define("DATABASE", "pdicsrdj_massage_spa");
+    define("USER", "bodyands_massage_spa");
+    define("PASSWORD", "bodyands_massage_spa");
+    define("DATABASE", "bodyands_massage_spa");
 
     // Database connection
     $connection = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
