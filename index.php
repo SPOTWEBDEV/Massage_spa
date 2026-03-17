@@ -45,11 +45,7 @@ include './server/connection.php';
 
 <body>
 
-    <!-- Preloader Start -->
-    <div class="preloader">
 
-    </div>
-    <!-- Preloader End -->
 
     <?php include './includes/navbar.php' ?>
 
