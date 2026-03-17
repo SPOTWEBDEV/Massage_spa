@@ -42,6 +42,19 @@
 /************************************/	
 
 :root{
+	--primary-color			: rgb(230, 111, 131);
+	--secondary-color		: #E6EFED;
+	--text-color			: black;
+	--accent-color			: black;
+	--white-color			: #FFFFFF;
+	--divider-color			: #FFFFFF26;
+	--dark-divider-color	: #153C331A;
+	--error-color			: rgb(230, 87, 87);
+	--accent-font			: "Archivo", sans-serif;
+	--default-font			: "DM Sans", sans-serif;
+}
+
+/* :root{
 	--primary-color			: #153C33;
 	--secondary-color		: #E6EFED;
 	--text-color			: #153C33B3;
@@ -52,7 +65,7 @@
 	--error-color			: rgb(230, 87, 87);
 	--accent-font			: "Archivo", sans-serif;
 	--default-font			: "DM Sans", sans-serif;
-}
+} */
 
 /************************************/
 /*** 	   02. General css		  ***/

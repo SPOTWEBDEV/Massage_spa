@@ -19,7 +19,8 @@ include('../server/connection.php')
     <!-- Page Title -->
     <title><?php  echo $sitename ?></title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/work/21.jpg">
+    
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -80,7 +81,7 @@ include('../server/connection.php')
                     <!-- team member image start -->
                     <div class="team-member-image">
                         <figure class="image-anime">
-                            <img src="<?php echo $domain ?>assets/images/work/41.jpg" alt="">
+                            <img src="<?php echo $domain ?>assets/images/me/4.jpeg" alt="">
                         </figure>
                     </div>
                     <!-- team member image end -->

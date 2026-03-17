@@ -18,7 +18,7 @@ include '../server/connection.php';
     <!-- Page Title -->
     <title>Physiocare - Physiotherapy HTML Template</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/work/21.jpg">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>

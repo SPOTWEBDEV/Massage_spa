@@ -148,7 +148,8 @@ include './server/connection.php';
                     <div class="about-us-image">
                         <div class="about-img">
                             <figure class="reveal image-anime">
-                                <img src="<?php echo $domain ?>assets/images/work/24.jpg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/me/3.jpeg" alt="">
+                                <!-- <img src="<?php echo $domain ?>assets/images/work/24.jpg" alt=""> -->
                             </figure>
 
                             <!-- Company Experience Box Start -->
